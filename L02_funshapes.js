@@ -31,6 +31,7 @@ function draw() {
 
   // Challenge 4: A rocketship using triangle() function
   fill("cyan");
+  noStroke();
   triangle(200,300, 400,300, 300, 80);
 
   // Challenge 5: A square face using quad() function
