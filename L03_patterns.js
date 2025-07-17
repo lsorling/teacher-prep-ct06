@@ -8,7 +8,7 @@ function draw() {
   mycolor = 255;
   // Recap 1: Repeating Circles
   for ( let i=0; i<5; i++ ) {
-    fill(mycolor,0,0);
+    fill(i*35);
     circle(i*100+70,200,80);
     mycolor = mycolor -35;
   }
