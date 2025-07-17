@@ -3,7 +3,8 @@ Task 1: Add the setup() function
 */
 // when green flag clicked
 function setup() {
-
+  createCanvas(600, 400);
+  b
 }
 
 // forever block
