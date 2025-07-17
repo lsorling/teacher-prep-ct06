@@ -19,8 +19,8 @@ function draw() {
   circle(200, 120, 60);
   circle(400, 120, 60);
   circle(200, 120, 60);
-  circle(270, 170, 35);
-  circle(330, 170, 35);
+  circle(270, 180, 35);
+  circle(330, 180, 35);
 
   // Challenge 3: A house using rect() function
 
