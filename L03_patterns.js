@@ -14,9 +14,9 @@ function draw() {
   // Task 1: Colour Gradient
   let mycolor = 0;
   noStroke();
-  for ( let i=0; i<5; i++ ) {
+  for ( let i=0; i<15; i++ ) {
     fill(mycolor);
-    rect(25+i*35,50,35,80);
+    rect(25+i*35,50,15,80);
     mycolor = mycolor +10;
   }
   // Task 2: Colour Loop
