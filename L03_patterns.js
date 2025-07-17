@@ -16,7 +16,8 @@ function draw() {
   noStroke();
   for ( let i=0; i<5; i++ ) {
     fill(mycolor);
-    rect(25,50,35,80);
+    rect(25+i*35,50,35,80);
+    mycolor = mycolor +10;
   }
   // Task 2: Colour Loop
 
