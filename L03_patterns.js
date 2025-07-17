@@ -12,7 +12,8 @@ function draw() {
   // }
 
   // Task 1: Colour Gradient
-
+  noStroke();
+  rect(50,50,)
   // Task 2: Colour Loop
 
   // Task 3: Row of Circles
