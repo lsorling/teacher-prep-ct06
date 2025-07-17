@@ -23,14 +23,14 @@ function draw() {
   // ellipse(300,250,80,30);
 
   // Challenge 3: A house using rect() function
-  rect(125,100,330,300);
-  rect(200,160,60, 60);
-  rect(330,160,60, 60);
-  rect(280,299,80,100);
-  ellipse(340,350,25,10);
+  // rect(125,100,330,300);
+  // rect(200,160,60, 60);
+  // rect(330,160,60, 60);
+  // rect(280,299,80,100);
+  // ellipse(340,350,25,10);
 
   // Challenge 4: A rocketship using triangle() function
-
+  triangle()
   // Challenge 5: A square face using quad() function
 
   // Challenge 6: Add some colours to the drawings in the above challenges
