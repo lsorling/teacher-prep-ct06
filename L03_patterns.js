@@ -12,6 +12,7 @@ function draw() {
   // }
 
   // Task 1: Colour Gradient
+  let mycolor = 255;
   noStroke();
   for ( let i=0; i<5; i++ ) {
     rect(25,50,35,80);
