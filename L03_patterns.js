@@ -5,12 +5,10 @@ function setup() {
   }
   
 function draw() {
-  mycolor = 255;
   // Recap 1: Repeating Circles
   for ( let i=0; i<5; i++ ) {
-    fill(i*55);
+    fill(i*55,0);
     circle(i*100+70,200,80);
-    mycolor = mycolor -35;
   }
   // Task 1: Colour Gradient
 
