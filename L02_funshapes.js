@@ -6,6 +6,7 @@ function setup() {
 
 }
 
+// forever block
 function draw() {
   // Challenge 1: An eye using ellipse() function
 
