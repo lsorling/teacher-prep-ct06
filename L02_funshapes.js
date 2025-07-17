@@ -1,6 +1,10 @@
 /*
 Task 1: Add the setup() function
 */
+// when green flag clicked
+function setup() {
+
+}
 
 function draw() {
   // Challenge 1: An eye using ellipse() function
