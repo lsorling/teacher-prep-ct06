@@ -5,6 +5,7 @@ function setup() {
   }
   
 function draw() {
+  mycolor = 0;
   // Recap 1: Repeating Circles
   for ( let i=0; i<5; i++ ) {
     circle(i*100+70,200,80);
