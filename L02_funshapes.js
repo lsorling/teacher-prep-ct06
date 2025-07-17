@@ -36,6 +36,7 @@ function draw() {
 
   // Challenge 5: A square face using quad() function
   fill("lavender");
+  stroke("black");
   quad(120,100, 200,100, 280, 30, 80, 30);
   // Challenge 6: Add some colours to the drawings in the above challenges
 
