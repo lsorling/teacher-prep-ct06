@@ -26,7 +26,7 @@ function draw() {
   rect(125,100,330,300);
   rect(200,160,60, 60);
   rect(330,160,60, 60);
-  rect(300,299,80,100);
+  rect(280,299,80,100);
   ellipse(360,350,25,10);
 
   // Challenge 4: A rocketship using triangle() function
