@@ -13,7 +13,7 @@ function draw() {
 
   // Task 1: Colour Gradient
   noStroke();
-  rect(50,50,50,80);
+  rect(25,50,35,80);
   // Task 2: Colour Loop
 
   // Task 3: Row of Circles
