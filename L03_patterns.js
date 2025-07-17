@@ -15,7 +15,7 @@ function draw() {
   let mycolor = 0;
   noStroke();
   for ( let i=0; i<38; i++ ) {
-    fill(0,mycolor/2,mycolor);
+    fill(mycolor/2,0,mycolor);
     rect(15+i*15,50,15,80);
     mycolor = mycolor +7;
   }
