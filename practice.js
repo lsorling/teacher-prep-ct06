@@ -47,8 +47,8 @@ function Obstacle() {
     this.velY = random(1,2);
     this.red = 255;
     // this.green = random(0,255);
-    this.green = random(0,255);
-    this.blue = 0;
+    this.green = 0;
+    this.blue = random(0,255);
 
     this.draw = function() {
         fill(this.red, this.green, this.blue);
