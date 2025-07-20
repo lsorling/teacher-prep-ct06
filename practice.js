@@ -49,7 +49,7 @@ function Obstacle() {
     // this.green = random(0,255);
     this.green = 0;
     this.blue = random(0,255);
-    this.delay = random(500,1000);
+    this.delay = random(60,300);
     this.delayCount = 0;
 
     this.draw = function() {
