@@ -54,7 +54,7 @@ function Obstacle() {
 
     this.draw = function() {
         delayCount++;
-        if (delayCount > delay)
+        if (delayCount > delay) {
         fill(this.red, this.green, this.blue);
         circle(this.x, this.y, this.size*2); // circle needed 2x radius; size is radius
         this.y += this.velY;
@@ -65,5 +65,6 @@ function Obstacle() {
         if (this.y > height) {
             this.velY = -1 * this.velY;
         }
+    }
     }
 } 
