@@ -14,7 +14,7 @@ function setup() {
 // forever block
 function draw() {
     background(220);
-    fill("hotpink");
+    fill("indigo");
     textSize(36);
     text("Arrays", 50, 50);
     // print("again");
