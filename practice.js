@@ -46,6 +46,7 @@ function Obstacle() {
     this.y = 10; // at the top
     this.velY = random(1,2);
     this.red = 255;
+    // this.green = random(0,255);
     this.green = random(0,255);
     this.blue = 0;
 
