@@ -49,6 +49,7 @@ function Obstacle() {
     // this.green = random(0,255);
     this.green = 0;
     this.blue = random(0,255);
+    this.delay = random()
 
     this.draw = function() {
         fill(this.red, this.green, this.blue);
