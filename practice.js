@@ -15,7 +15,7 @@ function setup() {
 function draw() {
     background(220);
     fill("indigo");
-    textSize(36);
+    textSize(28);
     text("Arrays", 50, 50);
     // print("again");
 
