@@ -15,7 +15,7 @@ function setup() {
 function draw() {
     background(220);
     fill("hotpink");
-    textSize(40);
+    textSize(36);
     text("Arrays", 50, 50);
     // print("again");
 
