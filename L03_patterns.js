@@ -1,3 +1,5 @@
+let colorValue = 0;
+
 function setup() {
     createCanvas(600, 400);
     background(220);
@@ -13,13 +15,13 @@ function draw() {
   // }
 
   // Task 1: Colour Gradient
-  let mycolor = 0;
-  noStroke();
-  for ( let i=0; i<38; i++ ) {
-    fill(0,0,mycolor);
-    rect(15+i*15,50,15,80);
-    mycolor = mycolor +7;
-  }
+  // let mycolor = 0;
+  // noStroke();
+  // for ( let i=0; i<38; i++ ) {
+  //   fill(0,0,mycolor);
+  //   rect(15+i*15,50,15,80);
+  //   mycolor = mycolor +7;
+  // }
   // Task 2: Colour Loop
 
   // Task 3: Row of Circles
