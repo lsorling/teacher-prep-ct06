@@ -23,10 +23,10 @@ function draw() {
   //   mycolor = mycolor +7;
   // }
   // Task 2: Colour Loop
-  fill(colorValue);
+  fill(colorValue,0,255);
   colorValue = colorValue + 1;
   circle(150, 150, 100);
-  
+
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
