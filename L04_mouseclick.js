@@ -7,6 +7,8 @@ let img;
 
 function preload() {
     img = loadImage('https://cdn.pixabay.com/photo/2017/04/21/02/17/calendar-2247443_1280.png');
+    // goto pixabay
+    // choose the image you liked; right-click there is an option to copy image address
 }
 // run once like when green flag clicked
 function setup() {
@@ -15,7 +17,7 @@ function setup() {
     noStroke();
 
     imageMode(CENTER);
-    image(img, 100,100,64,64);
+    image(img, 100,100,16,64);
 }
 
 // forever block; repeats 60 times per second
