@@ -17,5 +17,5 @@ function mousePressed() {
 }
 
 function mouseReleased() {
-    
+    fill("black");
 }
