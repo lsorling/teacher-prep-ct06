@@ -4,6 +4,7 @@
 // run once like when green flag clicked
 function setup() {
     createCanvas(500, 300);
+    background(200);
 }
 
 // forever block; repeats 60 times per second
@@ -21,5 +22,5 @@ function mouseReleased() {
 }
 
 function mouseDragged() {
-    circle(mouseX, mouseY, 50);
+    circle(mouseX, mouseY, 50, );
 }
