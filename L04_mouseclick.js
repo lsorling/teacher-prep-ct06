@@ -19,3 +19,7 @@ function mousePressed() {
 function mouseReleased() {
     fill("black");
 }
+
+function mouseDragged() {
+    
+}
