@@ -14,11 +14,11 @@ function draw() {
 }
 
 function mousePressed() {
-    fill("hotpink", 200);
+    fill("hotpink", 50);
 }
 
 function mouseReleased() {
-    fill("black", 200);
+    fill("black", 50);
 }
 
 function mouseDragged() {
