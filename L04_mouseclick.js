@@ -9,5 +9,5 @@ function setup() {
 
 // forever block; repeats 60 times per second
 function draw() {
-
+    circle(50,50,50);
 }
