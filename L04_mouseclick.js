@@ -21,7 +21,7 @@ function setup() {
     image(img, 100,100,128,128);
 
     fill('#ff3366');
-    rect(150,0,50,50);
+    rect(150,80,50,50);
 }
 
 // forever block; repeats 60 times per second
