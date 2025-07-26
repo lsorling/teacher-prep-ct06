@@ -5,6 +5,7 @@
 function setup() {
     createCanvas(500, 300);
     background(200);
+    noStroke();
 }
 
 // forever block; repeats 60 times per second
