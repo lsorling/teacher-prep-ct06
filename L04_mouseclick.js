@@ -18,7 +18,7 @@ function setup() {
     noStroke();
 
     imageMode(CENTER);
-    image(img, 100,100,200,200);
+    image(img, 100,100,128,128);
 }
 
 // forever block; repeats 60 times per second
