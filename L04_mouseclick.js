@@ -1,8 +1,9 @@
 // write your codes here
 // global variables goes here
+let img;
 
 function preload() {
-    img = image()
+    img = image('https://pixabay.com/vectors/calendar-months-days-date-dates-2247443/');
 }
 // run once like when green flag clicked
 function setup() {
