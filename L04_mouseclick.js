@@ -6,7 +6,7 @@ let img;
 // then it will call setup() in the p5.js library
 
 function preload() {
-    img = image('https://pixabay.com/vectors/calendar-months-days-date-dates-2247443/');
+    img = loadImage('https://pixabay.com/vectors/calendar-months-days-date-dates-2247443/');
 }
 // run once like when green flag clicked
 function setup() {
