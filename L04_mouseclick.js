@@ -19,6 +19,8 @@ function setup() {
 
     imageMode(CENTER);
     image(img, 100,100,128,128);
+
+    rect(150,0,)
 }
 
 // forever block; repeats 60 times per second
