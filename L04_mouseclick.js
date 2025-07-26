@@ -22,6 +22,9 @@ function setup() {
 
     fill('#ff3366');
     rect(150,80,50,50);
+    fill('#3366ff');
+    rect(150,80,50,50);
+
 }
 
 // forever block; repeats 60 times per second
