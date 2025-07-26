@@ -6,6 +6,7 @@ let img;
 // then it will call setup() in the p5.js library
 
 function preload() {
+    // https://cdn.pixabay.com/photo/2022/04/27/01/11/weather-7159425_1280.png
     img = loadImage('https://cdn.pixabay.com/photo/2022/04/27/01/12/weather-7159428_1280.png');
     // goto pixabay
     // choose the image you liked; right-click there is an option to copy image address
