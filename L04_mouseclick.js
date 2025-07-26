@@ -15,7 +15,7 @@ function draw() {
 }
 
 function mousePressed() {
-    fill(0,0,0, 50);
+    fill(0,0,0, 200);
 }
 
 function mouseReleased() {
