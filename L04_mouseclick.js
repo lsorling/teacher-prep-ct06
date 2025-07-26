@@ -15,7 +15,7 @@ function draw() {
 }
 
 function mousePressed() {
-    fill(0,0,0, 20);
+    fill("pink", 20);
 }
 
 function mouseReleased() {
