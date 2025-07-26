@@ -1,6 +1,9 @@
 // write your codes here
 // global variables goes here
 
+function preload() {
+    img = image()
+}
 // run once like when green flag clicked
 function setup() {
     createCanvas(500, 300);
