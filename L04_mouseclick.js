@@ -14,7 +14,7 @@ function preload() {
 // run once like when green flag clicked
 function setup() {
     createCanvas(500, 300);
-    background('#ff3366');
+    background('#cc');
     noStroke();
 
     imageMode(CENTER);
