@@ -2,6 +2,9 @@
 // global variables goes here
 let img;
 
+// preload() will wait for all resources to be loaded into memory
+// then it will call setup() in the p5.js library
+
 function preload() {
     img = image('https://pixabay.com/vectors/calendar-months-days-date-dates-2247443/');
 }
