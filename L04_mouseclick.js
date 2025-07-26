@@ -15,3 +15,7 @@ function draw() {
 function mousePressed() {
     fill("hotpink");
 }
+
+function mouseReleased() {
+    
+}
