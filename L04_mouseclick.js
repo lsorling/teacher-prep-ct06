@@ -20,7 +20,8 @@ function setup() {
     imageMode(CENTER);
     image(img, 100,100,128,128);
 
-    rect(150,0,)
+    fill('#ff3366');
+    rect(150,0,50,50);
 }
 
 // forever block; repeats 60 times per second
