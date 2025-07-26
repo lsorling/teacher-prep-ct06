@@ -14,7 +14,7 @@ function setup() {
     background(200);
     noStroke();
 
-    
+    image(img, 100,100);
 }
 
 // forever block; repeats 60 times per second
