@@ -14,6 +14,7 @@ function setup() {
     background(200);
     noStroke();
 
+    imageMode(CENTER);
     image(img, 100,100,64,64);
 }
 
