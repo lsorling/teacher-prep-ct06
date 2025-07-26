@@ -21,5 +21,5 @@ function mouseReleased() {
 }
 
 function mouseDragged() {
-    circle(5,,50);
+    circle(mouseX, mouseY, 50);
 }
