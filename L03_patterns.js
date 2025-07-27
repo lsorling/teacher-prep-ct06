@@ -30,7 +30,7 @@ function draw() {
   // Task 3: Row of Circles
   let diameter = 50;
   let spacing = 10;
-  let count = 5; //(width-diameter)/ (diameter+spacing);
+  let count = (width-diameter)/ (diameter+spacing);
   console.log("count is "+count);
   
   for (let i=0; i<count; i++) {
