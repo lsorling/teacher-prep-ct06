@@ -33,7 +33,7 @@ function draw() {
   let count = (width-diameter)/ (diameter+spacing);
   
   for (let i=0; i<count; i++) {
-    
+    circle(50+i*60)
   }
   // Task 4: Grid of Circles
 
