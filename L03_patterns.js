@@ -44,8 +44,8 @@ function draw() {
   for (let r1=0; r1<rows; r1++) {
     posX = diameter/2;
     for (let i=0; i<count; i++) {
-      posX = (0.5*diameter) + spacing + i*(diameter+spacing);
       circle(posX, posY, diameter);
+      posX = posX + diameter + spacing;
     } 
     text("posY is "+posY, posX, posY);
     // why is posY changed here
