@@ -42,7 +42,7 @@ function draw() {
   console.log("rows is "+rows);
 
   for (let r1=0; r1<rows; r1++) {
-    
+    posY 
   }
   // lesson 3 is confusing
   // bcos for loop
