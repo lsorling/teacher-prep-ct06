@@ -50,8 +50,9 @@ function draw() {
       posX = posX + i*(diameter+spacing);
     }
     // why is posY changed here
-    posX = posY + r1*
+    posX = posY + r1*(diameter+spacing);
   }
+  
   // lesson 3 is confusing
   // bcos for loop
   // we uses noLoop in the setup() function
