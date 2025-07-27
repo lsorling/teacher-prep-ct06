@@ -40,9 +40,8 @@ function draw() {
   // Task 4: Grid of Circles
   let rows = (height-diameter)/(diameter+spacing)
   console.log("rows is "+rows);
-
+  let posY = 0.5*diameter
   for (let r1=0; r1<rows; r1++) {
-    posY 
   }
   // lesson 3 is confusing
   // bcos for loop
