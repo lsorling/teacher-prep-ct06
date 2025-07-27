@@ -41,8 +41,11 @@ function draw() {
   let rows = (height-diameter)/(diameter+spacing)
   console.log("rows is "+rows);
   let posY = 0.5*diameter+spacing;
-  
+
   for (let r1=0; r1<rows; r1++) {
+    for (let i=0; i<count; i++) {
+      circle((0.5*diameter)+spacing+i*(diameter+spacing), 200, diameter);
+    }
   }
   // lesson 3 is confusing
   // bcos for loop
