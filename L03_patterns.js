@@ -43,8 +43,8 @@ function draw() {
   let posY = 0.5*diameter+spacing;
 
   for (let r1=0; r1<rows; r1++) {
-    text("posY is "+posY, posX, posY);
     posX = 0.5*diameter+spacing; // starts from the left
+    text("posY is "+posY, posX, posY);
     for (let i=0; i<count; i++) {
       circle(posX, posY, diameter);
       posX = posX + diameter+spacing;
