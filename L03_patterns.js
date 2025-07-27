@@ -31,4 +31,9 @@ function draw() {
 
   // Task 4: Grid of Circles
 
+  // lesson 3 is confusing
+  // bcos for loop
+  // we uses noLoop in the setup() function
+  // yet
+  // suddenly jump to draw() for variable changing 
 }
