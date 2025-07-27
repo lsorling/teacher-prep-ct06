@@ -50,7 +50,7 @@ function draw() {
       posX = posX + i*(diameter+spacing);
     }
     // why is posY changed here
-    // posX = posY + r1*(diameter+spacing);
+    posX = posY + r1*(diameter+spacing);
     text("posY is "+posY, 50, posY);
   }
 
