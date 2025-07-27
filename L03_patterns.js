@@ -30,7 +30,7 @@ function draw() {
   // Task 3: Row of Circles
   let diameter = 50;
   let spacing = 5;
-  let count = (width)/ (diameter+spacing);
+  let count = (width-w)/ (diameter+spacing);
   // count--;
   
   // for (let i=0; i<count; i++) {
@@ -48,7 +48,7 @@ function draw() {
       circle(posX, posY, diameter);
       posX = (0.5*diameter) + spacing + i*(diameter+spacing);
     } 
-    text("posY is "+posY, posX, posY);
+    // text("posY is "+posY, posX, posY);
     // why is posY changed here
     posY = posY + (diameter+spacing);
     console.log("posY is " + posY);
