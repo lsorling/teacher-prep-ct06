@@ -39,9 +39,10 @@ function draw() {
   // Task 4: Grid of Circles
   let rows = (height-diameter)/(diameter+spacing)
   let posX = 0;
-  let posY = 0.5*diameter+spacing;
+  let posY = 0;
 
   for (let r1=0; r1<rows; r1++) {
+    posY = r1*(diameter+s)
     posX = 0.5*diameter+spacing; // starts from the left
     for (let i=0; i<count; i++) {
       circle(posX, posY, diameter);
