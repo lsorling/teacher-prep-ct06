@@ -50,6 +50,7 @@ function draw() {
     text("posY is "+posY, posX, posY);
     // why is posY changed here
     posX = posY + (diameter+spacing);
+    conso
   }
 
   // lesson 3 is confusing
