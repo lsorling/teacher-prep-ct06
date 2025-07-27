@@ -42,7 +42,7 @@ function draw() {
   let posY = 0;
 
   for (let r1=0; r1<rows; r1++) {
-    posY = (0.5*diameter) + spacing + r1*(diameter+spacing);
+    posX = diameter/2;
     for (let i=0; i<count; i++) {
       posX = (0.5*diameter) + spacing + i*(diameter+spacing);
       circle(posX, posY, diameter);
