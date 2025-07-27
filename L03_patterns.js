@@ -38,7 +38,7 @@ function draw() {
     circle((0.5*diameter)+spacing+i*(diameter+spacing), 200, diameter);
   }
   // Task 4: Grid of Circles
-  let rows = (height-diameter)/(d)
+  let rows = (height-diameter)/(diameter+spacing)
 
   // lesson 3 is confusing
   // bcos for loop
