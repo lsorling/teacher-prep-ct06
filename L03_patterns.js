@@ -28,12 +28,20 @@ function draw() {
   // circle(150, 150, 100);
 
   // Task 3: Row of Circles
-
+  let diameter = 50;
+  let spacing = 10;
+  let count = (width-diameter)/ (diameter+spacing);
+  
+  for (let i=0; i<count; i++) {
+    
+  }
   // Task 4: Grid of Circles
 
   // lesson 3 is confusing
   // bcos for loop
   // we uses noLoop in the setup() function
   // yet
-  // suddenly jump to draw() for variable changing 
+  // suddenly jump to draw() for variable changing variable value using simple equation
+  // and variable
+
 }
