@@ -36,10 +36,11 @@ function draw() {
   // for (let i=0; i<count; i++) {
   //   circle((0.5*diameter)+spacing+i*(diameter+spacing), 200, diameter);
   // }
+  
   // Task 4: Grid of Circles
   let rows = height/ (diameter+spacing)
   rows--;
-  
+
   let posX = 0;
   let posY = diameter/2;
 
