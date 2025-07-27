@@ -32,7 +32,6 @@ function draw() {
   let spacing = 10;
   let count = (width-diameter)/ (diameter+spacing);
   // count--;
-  console.log("count is "+count);
   
   // for (let i=0; i<count; i++) {
   //   circle((0.5*diameter)+spacing+i*(diameter+spacing), 200, diameter);
@@ -50,7 +49,7 @@ function draw() {
       posX = posX + diameter+spacing;
     }
     // why is posY changed here
-    posX = posY + r1*(diameter+spacing);
+    posX = posY + (diameter+spacing);
     text("posY is "+posY, 50, posY);
   }
 
