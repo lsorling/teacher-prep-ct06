@@ -51,7 +51,7 @@ function draw() {
     }
     // why is posY changed here
     // posX = posY + r1*(diameter+spacing);
-    text()
+    text("posY is "+posY, 50, posY);
   }
 
   // lesson 3 is confusing
