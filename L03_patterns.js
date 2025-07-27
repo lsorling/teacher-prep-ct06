@@ -41,6 +41,9 @@ function draw() {
   let rows = (height-diameter)/(diameter+spacing)
   console.log("rows is "+rows);
 
+  for (let r1=0; r1<rows; r1++) {
+    
+  }
   // lesson 3 is confusing
   // bcos for loop
   // we uses noLoop in the setup() function
