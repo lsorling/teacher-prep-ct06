@@ -39,7 +39,8 @@ function draw() {
   }
   // Task 4: Grid of Circles
   let rows = (height-diameter)/(diameter+spacing)
-
+  console.log("rows is "+rows);
+  
   // lesson 3 is confusing
   // bcos for loop
   // we uses noLoop in the setup() function
