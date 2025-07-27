@@ -46,7 +46,7 @@ function draw() {
     posX = 0.5*diameter + spacing; // starts from the left
     for (let i=0; i<count; i++) {
       circle(posX, posY, diameter);
-      posX = (0.5*diameter) + spacing + i*;
+      posX = (0.5*diameter) + spacing + i*(diameter+spacing);
     } 
     text("posY is "+posY, posX, posY);
     // why is posY changed here
