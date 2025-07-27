@@ -35,7 +35,7 @@ function draw() {
   console.log("count is "+count);
   
   for (let i=0; i<count; i++) {
-    circle((0.5*diameter)+i*(diameter+spacing), 200, diameter);
+    circle((0.5*diameter)+spacing+i*(diameter+spacing), 200, diameter);
   }
   // Task 4: Grid of Circles
 
