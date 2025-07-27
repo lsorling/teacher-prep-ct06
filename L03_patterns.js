@@ -38,6 +38,8 @@ function draw() {
   // }
   // Task 4: Grid of Circles
   let rows = height/ (diameter+spacing)
+  rows--;
+  
   let posX = 0;
   let posY = diameter/2;
 
