@@ -1,1 +1,3 @@
 most js files are blank now.
+
+week 4 to do mouse click events
