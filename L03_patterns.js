@@ -44,8 +44,10 @@ function draw() {
   let posY = 0.5*diameter+spacing;
 
   for (let r1=0; r1<rows; r1++) {
+    posX = 0.5*diameter+spacing; // starts from the left
     for (let i=0; i<count; i++) {
-      circle((0.5*diameter)+spacing+i*(diameter+spacing), 200, diameter);
+      circle(posX, posY, diameter);
+      posX = posX + i*(diameter+spacing);
     }
   }
   // lesson 3 is confusing
