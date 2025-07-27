@@ -49,6 +49,8 @@ function draw() {
       circle(posX, posY, diameter);
       posX = posX + i*(diameter+spacing);
     }
+    // why is posY changed here
+    posX = posY + r1*
   }
   // lesson 3 is confusing
   // bcos for loop
