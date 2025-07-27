@@ -28,14 +28,14 @@ function draw() {
   // circle(150, 150, 100);
 
   // Task 3: Row of Circles
-  let diameter = 50;
+  let diameter = 80;
   let spacing = 10;
   let count = (width-diameter)/ (diameter+spacing);
   count--;
   console.log("count is "+count);
   
   for (let i=0; i<count; i++) {
-    circle(50+i*60, 200, diameter);
+    circle(50+i*(diameter+spacing), 200, diameter);
   }
   // Task 4: Grid of Circles
 
