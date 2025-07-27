@@ -30,7 +30,7 @@ function draw() {
   // Task 3: Row of Circles
   let diameter = 50;
   let spacing = 10;
-  let count = (width-diameter)/ (diameter+spacing);
+  let count = 5; //(width-diameter)/ (diameter+spacing);
   
   for (let i=0; i<count; i++) {
     circle(50+i*60, 200, diameter);
