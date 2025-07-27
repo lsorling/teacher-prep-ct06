@@ -39,7 +39,7 @@ function draw() {
   // Task 4: Grid of Circles
   let rows = (height-diameter)/(diameter+spacing)
   let posX = 0;
-  let posY = 0;
+  let posY = diameter/2;
 
   for (let r1=0; r1<rows; r1++) {
     posX = diameter/2;
@@ -49,7 +49,7 @@ function draw() {
     } 
     text("posY is "+posY, posX, posY);
     // why is posY changed here
-    posY = posY + (diameter+spacing);
+    posY = posY + diameter + spacing;
     console.log("posY is " + posY);
   }
 
