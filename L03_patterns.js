@@ -31,6 +31,7 @@ function draw() {
   let diameter = 50;
   let spacing = 10;
   let count = (width-diameter)/ (diameter+spacing);
+  count--;
   console.log("count is "+count);
   
   for (let i=0; i<count; i++) {
