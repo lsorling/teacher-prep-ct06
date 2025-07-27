@@ -31,6 +31,7 @@ function draw() {
   let diameter = 50;
   let spacing = 10;
   let count = 5; //(width-diameter)/ (diameter+spacing);
+  console.log("count is ")
   
   for (let i=0; i<count; i++) {
     circle(50+i*60, 200, diameter);
