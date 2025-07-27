@@ -49,7 +49,7 @@ function draw() {
     }
     text("posY is "+posY, posX, posY);
     // why is posY changed here
-    posX = posY + (diameter+spacing);
+    posY = posY + (diameter+spacing);
     console.log("posY is " + posY);
   }
 
