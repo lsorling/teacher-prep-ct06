@@ -2,4 +2,4 @@ most js files are blank now.
 
 week 4 to do mouse click events
 
-i learned using pixabay images, using url
+i learned using pixabay images, using url for p5js to load image 
