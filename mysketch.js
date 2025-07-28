@@ -14,7 +14,7 @@ function setup() {
     fill("steelblue");
     noStroke();
     textSize(46);
-    textAlign(CENTER, CENTER);
+    textAlign(CENTER, CENTER); // got more 
 }
 
 function draw() {
