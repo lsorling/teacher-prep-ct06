@@ -19,5 +19,5 @@ function draw() {
 }
 
 function keyPressed() {
-    
+    whichKey = key;
 }
