@@ -1,4 +1,5 @@
 // global variables
+let whichKey;
 
 // preload
 // synchronous wait till all loaded
