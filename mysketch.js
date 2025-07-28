@@ -9,11 +9,12 @@ function preload() {
 function setup() {
     createCanvas(600,400);
     background(220);
+    fill(0,20);
+    noStroke();
 }
 
 function draw() {
     // circle(50,50,25);
-    fill(0,20);
-    noStroke();
+
     circle(mouseX,mouseY,25);
 }
