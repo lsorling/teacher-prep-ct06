@@ -20,6 +20,7 @@ function setup() {
 function draw() {
     background(220);
     // circle(50,50,25);
+    // if you cannot see your mouse pointer, use this line
     circle(mouseX,mouseY,25);
     text(whichKey, width/2, height/2);
 }
