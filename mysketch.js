@@ -14,7 +14,7 @@ function setup() {
     fill("steelblue");
     noStroke();
     textSize(46);
-    textAlign(CENTER, CENTER); // got more 
+    textAlign(CENTER, CENTER); // got more ENUMS available for textAlign
 }
 
 function draw() {
