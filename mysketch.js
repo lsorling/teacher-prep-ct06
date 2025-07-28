@@ -1,5 +1,5 @@
 // global variables
-let whichKey;
+let whichKey = "-";
 
 // preload
 // synchronous wait till all loaded
@@ -12,6 +12,7 @@ function setup() {
     background(220);
     fill(0,20);
     noStroke();
+    textSize()
 }
 
 function draw() {
