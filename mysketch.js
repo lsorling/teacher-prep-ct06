@@ -18,7 +18,7 @@ function setup() {
 function draw() {
     // circle(50,50,25);
     circle(mouseX,mouseY,25);
-    text(whichKey, wid)
+    text(whichKey, width/2, height/2);
 }
 
 function keyPressed() {
