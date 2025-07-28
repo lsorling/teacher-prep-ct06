@@ -10,6 +10,7 @@ function preload() {
 function setup() {
     createCanvas(600,400);
     background(220);
+    // fill(0,20);
     fill(0,20);
     noStroke();
     textSize(46);
