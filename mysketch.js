@@ -12,12 +12,13 @@ function setup() {
     background(220);
     fill(0,20);
     noStroke();
-    textSize()
+    textSize(46);
 }
 
 function draw() {
     // circle(50,50,25);
     circle(mouseX,mouseY,25);
+    text(whichKey, wid)
 }
 
 function keyPressed() {
