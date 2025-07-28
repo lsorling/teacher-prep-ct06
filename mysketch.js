@@ -16,6 +16,7 @@ function setup() {
 }
 
 function draw() {
+    background(220);
     // circle(50,50,25);
     circle(mouseX,mouseY,25);
     text(whichKey, width/2, height/2);
