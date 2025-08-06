@@ -1,5 +1,6 @@
 function setup() {
     createCanvas(200, 200);
+    background(200);
 }
 
 function draw() {
@@ -13,7 +14,7 @@ function keyPressed() {
     }
     if (key === 's') {
         background(200);
-        rect(20, 20, 180, 180);
+        rect(20, 20, 160, 180);
     }
     if (key === 't') {
         background(200);
