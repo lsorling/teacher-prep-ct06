@@ -9,6 +9,6 @@ function draw() {
 function keyPressed() {
     if (key === 'c') {
         background(200);
-        circle(width/2, height/2, 200);
+        circle(width/2, height/2, 180);
     }
 }
