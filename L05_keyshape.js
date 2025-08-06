@@ -13,10 +13,10 @@ function keyPressed() {
     }
     if (key === 'c') {
         background(200);
-        circle(width/2, height/2, 180);
+        rect(width/2, height/2, 180);
     }
     if (key === 't') {
         background(200);
-        triangle(20,180, 100,20, );
+        triangle(20,180, 100,20, 180,180);
     }
 }
