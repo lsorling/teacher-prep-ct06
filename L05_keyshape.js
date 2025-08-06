@@ -14,7 +14,7 @@ function keyPressed() {
     }
     if (key === 's') {
         background(200);
-        rect(20, 20, 160, 180);
+        rect(20, 20, 160, 160);
     }
     if (key === 't') {
         background(200);
