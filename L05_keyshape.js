@@ -20,6 +20,7 @@ function keyPressed() {
     }
     if (key === 't') {
         background(200);
+        fill("blue");
         triangle(20,180, 100,20, 180,180);
     }
 }
