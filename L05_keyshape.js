@@ -17,6 +17,6 @@ function keyPressed() {
     }
     if (key === 't') {
         background(200);
-        triangle(width/2, height/2, 180);
+        triangle(20,180, 100,20, );
     }
 }
