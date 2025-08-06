@@ -11,9 +11,9 @@ function keyPressed() {
         background(200);
         circle(width/2, height/2, 180);
     }
-    if (key === 'c') {
+    if (key === 's') {
         background(200);
-        rect(width/2, height/2, 180);
+        rect(180, 180);
     }
     if (key === 't') {
         background(200);
