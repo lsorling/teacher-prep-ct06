@@ -1,3 +1,12 @@
+
+finished week 6 progressing well
+week 6 is sprite images and sound effects
+-so i found out that i can export from scratch
+and used it here
+
+dated 16-Aug
+
+
 most js files are blank now.
 
 week 4 to do mouse click events
