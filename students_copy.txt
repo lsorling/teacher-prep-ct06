@@ -1,4 +1,13 @@
 
+for pico, movement within the canvas
+i was trying 2nd player, left hand vs right hand
+wasd keys vs arrow keys 
+
+i can load images from scratch
+but not sound from scratch
+lucky i found pixabay free mp3
+
+
 finished week 6 progressing well
 week 6 is sprite images and sound effects
 -so i found out that i can export from scratch
