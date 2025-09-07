@@ -1,4 +1,8 @@
-monda
+monday class
+tomorrow morning i will prep this
+
+week 10 - basic array
+
 
 for pico, movement within the canvas
 i was trying 2nd player, left hand vs right hand
