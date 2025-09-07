@@ -1,7 +1,7 @@
 monday class
 tomorrow morning i will prep this
 
-week 10 - basic array
+week 10 - basic array 
 
 
 for pico, movement within the canvas
