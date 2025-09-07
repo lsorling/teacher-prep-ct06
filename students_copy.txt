@@ -2,6 +2,14 @@ monday class
 tomorrow morning i will prep this
 
 week 10 - basic array 
+i didnt finished bouncing ball yet
+but wed i finished bouncing ball, and did quizzz
+-even gone through practical answer
+
+must bring printed notes for lucius monday
+
+
+###############################
 
 
 for pico, movement within the canvas
