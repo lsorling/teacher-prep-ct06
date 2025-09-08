@@ -1,0 +1,15 @@
+for ct06
+
+i have some slow students in monday and wednesday
+
+like lucius sec 1
+joy 10yo
+guhaan pri 6 learning needs student
+
+for loop lesson 3
+do all drawing in setup() function
+
+lesson 6 draw text using a loop
+do it in setup function 
+
+so that they are not confused, draw() is called again and again 
