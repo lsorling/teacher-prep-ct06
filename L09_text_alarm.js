@@ -19,6 +19,8 @@ function setup() {
 //     text(nf(ss,2), width/2, 190);
 // }
 
+let countdown = 5;
+let interval = 0;
 
 function draw() {
 
