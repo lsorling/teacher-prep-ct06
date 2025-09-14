@@ -1,5 +1,5 @@
 // write your codes here
-let ypos;
+let xpos;
 let story;
 
 function preload() {
@@ -26,7 +26,7 @@ function draw() {
     background("black");
 
     // sequence matters
-    translate(width/2, height/2);
+    translate(xpos, height/2);
     scale(1, 3);
 
     // then draw text
