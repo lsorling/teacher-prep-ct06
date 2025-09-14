@@ -18,7 +18,7 @@ function setup() {
 
 function draw() {
     background("black");
-    text("hello world!", width/2, 0);
+    text("hello world!", 0, 60);
 
     //translate(width/2, ypos)
     //scale(1, 3);
