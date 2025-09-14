@@ -6,14 +6,15 @@ function setup() {
     textAlign(CENTER, CENTER);
 }
 
-function draw() {
-    background(200);
+// do slowly for monday class
+// function draw() {
+//     background(200);
 
-    let hh = hour();
-    let mm = minute();
-    let ss = second();
+//     let hh = hour();
+//     let mm = minute();
+//     let ss = second();
 
-    text(nf(hh,2), width/2, 50);
-    text(nf(mm,2), width/2, 120);
-    text(nf(ss,2), width/2, 190);
-}
+//     text(nf(hh,2), width/2, 50);
+//     text(nf(mm,2), width/2, 120);
+//     text(nf(ss,2), width/2, 190);
+// }
