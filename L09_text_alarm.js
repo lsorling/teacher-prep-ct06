@@ -23,6 +23,7 @@ let countdown = 5;
 let interval = 0;
 
 function draw() {
+    background(200);
     text(countdown, width/2, height/2);
 }
 
