@@ -26,7 +26,7 @@ function draw() {
     background(200);
     text(countdown, width/2, height/2);
     textSize(10);
-    text("click ")
+    text("click here to start countdown timer", width/2, height/2+50);
 }
 
 function mousePressed() {
