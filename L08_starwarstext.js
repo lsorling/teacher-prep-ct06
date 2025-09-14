@@ -32,7 +32,7 @@ function draw() {
     }
 
     //translate(width/2, ypos);
-    //translate(0,0);
+    translate(0,0);
     //scale(1, 3);
     // ypos = ypos - 0.6;
 
