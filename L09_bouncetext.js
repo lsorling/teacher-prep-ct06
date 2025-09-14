@@ -19,8 +19,8 @@ function draw() {
     background("black");
 
     // sequence matters
-    //translate(xpos, height/2);
-    //scale(1, 3);
+    translate(xpos, height/2);
+    scale(1, 3);
 
     // then draw text
     text("I am going to bounce left and right", 0, 0);
