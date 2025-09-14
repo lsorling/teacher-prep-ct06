@@ -25,6 +25,7 @@ function setup() {
 function draw() {
     background("black");
 
+    // sequence matters
     translate(width/2, ypos);
     scale(1, 3);
 
