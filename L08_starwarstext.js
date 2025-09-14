@@ -31,7 +31,7 @@ function draw() {
         nextline = nextline + 40;
     }
 
-    //translate(width/2, ypos)
+    //translate(width/2, ypos);
     translate(0,0);
     //scale(1, 3);
     ypos = ypos - 0.6;
