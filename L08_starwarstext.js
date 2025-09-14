@@ -15,7 +15,10 @@ function setup() {
     textSize(32);
     textAlign(CENTER);
 
-    story = []
+    story = ["",
+        "",
+        ""
+    ]
 }
 
 function draw() {
