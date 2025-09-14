@@ -25,7 +25,7 @@ function draw() {
     background("black");
     //text("hello world!", width/2, ypos);
     for (let index=0; index<story.length; index++) {
-        
+        text(story[index], width)
     }
 
     translate(width/2, ypos)
