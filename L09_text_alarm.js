@@ -6,5 +6,6 @@ function setup() {
 
 function draw() {
     background(200);
+    textSize(72);
     text(nf(hour(),2) + ":" + nf(minute(),2) + ":" + nf(second(),2), width/2, 90);
 }
