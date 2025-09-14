@@ -29,11 +29,14 @@ function draw() {
     translate(width/2, ypos);
     scale(1, 3);
 
+    // then draw text
+
     let nextline = 0;
     for (let index=0; index<story.length; index++) {
         text(story[index], 0, nextline)
         nextline = nextline + 40;
     }
+    
     ypos = ypos - 0.6;
 
     if (ypos < 0) {
