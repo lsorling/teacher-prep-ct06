@@ -17,13 +17,13 @@ function setup() {
 
     story = ["long long time ago,",
         "there was this little girl.",
-        ""
+        "her name was Mary..."
     ]
 }
 
 function draw() {
     background("black");
-    text("hello world!", width/2, ypos);
+    //text("hello world!", width/2, ypos);
 
     translate(width/2, ypos)
     //scale(1, 3);
