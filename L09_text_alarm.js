@@ -4,5 +4,7 @@ function setup() {
 }
 
 function draw() {
-    
+    hour();
+    minute();
+    second();
 }
