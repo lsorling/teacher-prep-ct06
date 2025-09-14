@@ -36,6 +36,7 @@ function draw() {
     //     text(story[index], 0, nextline)
     //     nextline = nextline + 40;
     // }
+    text("Hello", 0, 0);
 
     ypos = ypos - 0.6;
 
