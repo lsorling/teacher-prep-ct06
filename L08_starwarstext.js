@@ -1,4 +1,6 @@
 // write your codes here
+let ypos;
+
 function preload() {
 
 }
@@ -12,5 +14,5 @@ function setup() {
 }
 
 function draw() {
-
+    ypos = ypos - 0.6;
 }
