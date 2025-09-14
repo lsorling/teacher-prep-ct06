@@ -31,14 +31,15 @@ function draw() {
 
     // then draw text
 
-    let nextline = 0;
-    for (let index=0; index<story.length; index++) {
-        text(story[index], 0, nextline)
-        nextline = nextline + 40;
-    }
-    
+    // let nextline = 0;
+    // for (let index=0; index<story.length; index++) {
+    //     text(story[index], 0, nextline)
+    //     nextline = nextline + 40;
+    // }
+
     ypos = ypos - 0.6;
 
+    // much later only when it works
     if (ypos < 0) {
         ypos = height;
     }
