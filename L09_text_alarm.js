@@ -45,7 +45,7 @@ function reduceCount() {
         countdown--;
     }
     else {
-        clearInterval();
+        clearInterval(interval);
         soundfx.play();
         clear();
     }
