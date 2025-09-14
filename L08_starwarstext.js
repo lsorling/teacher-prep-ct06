@@ -17,7 +17,8 @@ function setup() {
 
     story = ["long long time ago,",
         "there was this little girl.",
-        "her name was Mary..."
+        "her name was Mary...",
+        "she has 3 little lambs."
     ]
 }
 
