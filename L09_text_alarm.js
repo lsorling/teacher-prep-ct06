@@ -1,7 +1,8 @@
 // write your codes here
-let 
-function preload() {
+let soundfx;
 
+function preload() {
+    soundfx = loadSound("")
 }
 
 function setup() {
