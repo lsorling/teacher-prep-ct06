@@ -4,7 +4,7 @@ function setup() {
 }
 
 function draw() {
-    hour();
+    console.log(nf(hour(),2));
     minute();
     second();
 }
