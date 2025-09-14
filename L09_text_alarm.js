@@ -13,6 +13,6 @@ function draw() {
     let ss = second();
 
     text(nf(hh,2), width/2, 50);
-    text(nf(mm,2), width/2, 70);
-    text(nf(ss,2), width/2, 90);
+    text(nf(mm,2), width/2, 100);
+    text(nf(ss,2), width/2, 150);
 }
