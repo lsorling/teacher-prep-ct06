@@ -8,5 +8,6 @@ function draw() {
     background(200);
     textSize(72);
     textAlign(CENTER, CENTER);
+    let h = hour()
     text(nf(hour(),2) + ":" + nf(minute(),2) + ":" + nf(second(),2), width/2, height/2);
 }
