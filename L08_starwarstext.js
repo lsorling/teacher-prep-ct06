@@ -27,7 +27,7 @@ function draw() {
     //text("hello world!", width/2, ypos);
     let nextline = 0;
     for (let index=0; index<story.length; index++) {
-        text(story[index], 0, 50+nextline)
+        text(story[index], 300, 50+nextline)
         nextline = nextline + 40;
     }
 
