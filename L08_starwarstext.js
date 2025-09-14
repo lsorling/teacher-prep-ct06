@@ -5,7 +5,9 @@ function preload() {
 
 function setup() {
     createCanvas(600,600);
-    bac
+    background("black");
+    fill("cyan");
+    textSize(32);
     text("hello world!", 0, 0);
 }
 
