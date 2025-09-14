@@ -1,6 +1,6 @@
 // write your codes here
 let xpos;
-let x
+let speedX = -0.6;
 
 function preload() {
 
