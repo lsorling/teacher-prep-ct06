@@ -24,7 +24,7 @@ function draw() {
     scale(1, 3);
 
     // then draw text
-    text("I am going to bounce left and right", 0, 0);
+    text("bounce text", 0, 0);
 
     xpos = xpos + speedX;
     if (xpos < 0) {
