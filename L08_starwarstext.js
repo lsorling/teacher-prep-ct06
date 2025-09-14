@@ -24,15 +24,13 @@ function setup() {
 
 function draw() {
     background("black");
-    //text("hello world!", width/2, ypos);
-
 
     translate(width/2, ypos);
     scale(1, 3);
 
     let nextline = 0;
     for (let index=0; index<story.length; index++) {
-        text(story[index], 0, ypos+nextline)
+        text(story[index], 0, nextline)
         nextline = nextline + 40;
     }
     ypos = ypos - 0.6;
