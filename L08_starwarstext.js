@@ -27,6 +27,7 @@ function draw() {
     let nextline = 0;
     for (let index=0; index<story.length; index++) {
         text(story[index], width, ypos+nextline)
+        nextline = nextline + 40;
     }
 
     translate(width/2, ypos)
