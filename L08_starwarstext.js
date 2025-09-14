@@ -33,9 +33,9 @@ function draw() {
 
     translate(width/2, ypos);
     scale(1, 3);
-    // ypos = ypos - 0.6;
+    ypos = ypos - 0.6;
 
-    // if (ypos < 0) {
-    //     ypos = height;
-    // }
+    if (ypos < 0) {
+        ypos = height;
+    }
 }
