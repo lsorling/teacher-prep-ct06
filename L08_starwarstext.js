@@ -13,6 +13,8 @@ function setup() {
     fill("cyan");
     textSize(32);
     text("hello world!", 0, 0);
+
+    translate(width/2, ypos)
 }
 
 function draw() {
