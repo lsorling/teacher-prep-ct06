@@ -21,7 +21,7 @@ function draw() {
 
     // sequence matters
     translate(xpos, height/2); // do this line first, draw text
-    scale(1, 3); //
+    scale(1, 3); // this one, later only after its working
 
     // then draw text
     text("bounce text", 0, 0);
