@@ -7,7 +7,7 @@ function preload() {
 
 function setup() {
     createCanvas(600,600);
-    ypos = height;
+    xpos = height;
 
     background("black");
     fill("cyan");
@@ -25,10 +25,5 @@ function draw() {
     // then draw text
     text("I am going to bounce left and right", width/2, height/2);
 
-    ypos = ypos - 0.6;
-
-    // much later only when it works
-    if (ypos < 0) {
-        ypos = height;
-    }
+    xpos = xpos - 0.6;
 }
