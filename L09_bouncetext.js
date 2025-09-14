@@ -27,5 +27,10 @@ function draw() {
     text("I am going to bounce left and right", 0, 0);
 
     xpos = xpos + speedX;
-    if (xpox < 0)
+    if (xpos < 0) {
+        speedX = speedX * -1;
+    }
+    if (xpos > width) {
+        
+    }
 }
