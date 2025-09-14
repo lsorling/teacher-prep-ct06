@@ -24,6 +24,7 @@ function setup() {
 function draw() {
     background("black");
     //text("hello world!", width/2, ypos);
+    for (let index=0; index<)
 
     translate(width/2, ypos)
     //scale(1, 3);
