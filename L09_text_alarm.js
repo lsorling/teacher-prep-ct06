@@ -2,7 +2,7 @@
 let soundfx;
 
 function preload() {
-    soundfx = loadSound("assets/bo")
+    soundfx = loadSound("assets/bossaNova.mp3");
 }
 
 function setup() {
@@ -45,6 +45,7 @@ function reduceCount() {
         countdown--;
     }
     else {
+        s
         clearInterval();
     }
 }
