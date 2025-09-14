@@ -27,12 +27,12 @@ function draw() {
     //text("hello world!", width/2, ypos);
     let nextline = 0;
     for (let index=0; index<story.length; index++) {
-        text(story[index], width/2, ypos+nextline)
+        text(story[index], 0, ypos+nextline)
         nextline = nextline + 40;
     }
 
     //translate(width/2, ypos);
-    translate(0,0);
+    //translate(0,0);
     //scale(1, 3);
     // ypos = ypos - 0.6;
 
