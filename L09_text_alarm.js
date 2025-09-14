@@ -6,5 +6,5 @@ function setup() {
 function draw() {
     text(nf(hour(),2), width/2, 50);
     text(nf(minute(),2), width/2, 70);
-    second();
+    text(nf(second(),2), width/2, 90);
 }
