@@ -12,6 +12,7 @@ function setup() {
     background("black");
     fill("cyan");
     textSize(32);
+    textAlign(CENTER);
 
 }
 
