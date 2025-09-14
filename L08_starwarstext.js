@@ -21,5 +21,6 @@ function draw() {
     text("hello world!", width/2, ypos);
 
     translate(width/2, ypos)
+    scale(1, 3);
     ypos = ypos - 0.6;
 }
