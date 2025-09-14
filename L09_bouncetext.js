@@ -30,7 +30,7 @@ function draw() {
     scale(1, 3);
 
     // then draw text
-    text("Hello", 0, 0);
+    text("I am going to bounce left and right", width/2, 0);
 
     ypos = ypos - 0.6;
 
