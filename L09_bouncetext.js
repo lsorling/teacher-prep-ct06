@@ -23,7 +23,7 @@ function draw() {
     //scale(1, 3);
 
     // then draw text
-    text("I am going to bounce left and right", width/2, height/2);
+    text("I am going to bounce left and right", 0, 0);
 
     xpos = xpos - 0.6;
 }
