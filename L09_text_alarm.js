@@ -4,6 +4,9 @@ function setup() {
     background(200);
     textSize(72);
     textAlign(CENTER, CENTER);
+}
+
+function draw() {
     let hh = hour();
     let mm = minute();
     let ss = second();
@@ -11,8 +14,5 @@ function setup() {
     text(nf(hh,2), width/2, 50);
     text(nf(mm,2), width/2, 120);
     text(nf(ss,2), width/2, 190);
-}
-
-function draw() {
 
 }
