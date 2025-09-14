@@ -15,7 +15,7 @@ function setup() {
     textSize(32);
     textAlign(CENTER);
 
-    story = ["",
+    story = ["long long time ago,",
         "",
         ""
     ]
