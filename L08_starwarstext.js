@@ -18,7 +18,7 @@ function setup() {
 
 function draw() {
     background("black");
-    text("hello world!", 0, ypos);
+    text("hello world!", width/2, ypos);
 
     translate(width/2, ypos)
     ypos = ypos - 0.6;
