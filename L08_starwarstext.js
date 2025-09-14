@@ -20,7 +20,7 @@ function draw() {
     background("black");
     text("hello world!", 100, ypos);
 
-    translate(100, ypos)
+    translate(width/2, ypos)
     //scale(1, 3);
     ypos = ypos - 0.6;
 }
