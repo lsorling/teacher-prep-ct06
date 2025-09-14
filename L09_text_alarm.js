@@ -26,7 +26,7 @@ function setup() {
 // }
 
 let countdown = 15;
-let interval = 0;
+let interval;
 
 function draw() {
     background(200);
@@ -37,7 +37,7 @@ function draw() {
 }
 
 function mousePressed() {
-    setInterval(reduceCount, 1000);
+    interval = setInterval(reduceCount, 1000);
 }
 
 function reduceCount() {
