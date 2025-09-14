@@ -38,5 +38,7 @@ function reduceCount() {
     if (countdown > 0) {
         countdown--;
     }
-    
+    else {
+        clearInterval();
+    }
 }
