@@ -47,6 +47,5 @@ function reduceCount() {
     else {
         clearInterval(interval);
         soundfx.play();
-        clear();
     }
 }
