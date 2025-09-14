@@ -16,7 +16,7 @@ function setup() {
     textAlign(CENTER);
 
     story = ["long long time ago,",
-        "",
+        "there was this little girl.",
         ""
     ]
 }
