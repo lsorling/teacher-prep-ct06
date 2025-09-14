@@ -1,6 +1,7 @@
 // write your codes here
 let ypos;
-let 
+let story;
+
 function preload() {
 
 }
@@ -14,6 +15,7 @@ function setup() {
     textSize(32);
     textAlign(CENTER);
 
+    story = []
 }
 
 function draw() {
