@@ -12,5 +12,5 @@ function draw() {
     let mm = minute();
     let ss = second();
 
-    text(nf(hh,2), width/2, 50);
+    text(nf(ss,2), width/2, 50);
 }
