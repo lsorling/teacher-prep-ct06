@@ -1,5 +1,6 @@
 // write your codes here
 let xpos;
+let x
 
 function preload() {
 
