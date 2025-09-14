@@ -7,6 +7,8 @@ function setup() {
 }
 
 function draw() {
+    background(200);
+
     let hh = hour();
     let mm = minute();
     let ss = second();
@@ -14,5 +16,4 @@ function draw() {
     text(nf(hh,2), width/2, 50);
     text(nf(mm,2), width/2, 120);
     text(nf(ss,2), width/2, 190);
-
 }
