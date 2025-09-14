@@ -8,7 +8,7 @@ function setup() {
     background("black");
     fill("cyan");
     textSize(32);
-    text("hello world!", 0, 0);
+    text("hello world!", 110, 50);
 }
 
 function draw() {
