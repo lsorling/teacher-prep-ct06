@@ -24,6 +24,7 @@ let interval = 0;
 
 function draw() {
     background(200);
+    textSize(48);
     text(countdown, width/2, height/2);
     textSize(10);
     text("click here to start countdown timer", width/2, height/2+50);
