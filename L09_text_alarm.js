@@ -2,10 +2,6 @@
 function setup() {
     createCanvas(600,400);
     background(200);
-}
-
-function draw() {
-    background(200);
     textSize(72);
     textAlign(CENTER, CENTER);
     let hh = hour();
@@ -15,4 +11,8 @@ function draw() {
     text(nf(hh,2), width/2, 50);
     text(nf(mm,2), width/2, 120);
     text(nf(ss,2), width/2, 190);
+}
+
+function draw() {
+
 }
