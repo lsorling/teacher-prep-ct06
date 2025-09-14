@@ -13,6 +13,7 @@ function setup() {
     background("black");
     fill("cyan");
     textSize(32);
+    // align center and center is important too
     textAlign(CENTER, CENTER); // x, y
 }
 
