@@ -13,7 +13,7 @@ function setup() {
     background("black");
     fill("cyan");
     textSize(32);
-    textAlign(CENTER);
+    textAlign(CENTER, CENTER); // x, y
 
     story = ["long long time ago,",
         "there was this little girl.",
