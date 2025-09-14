@@ -2,7 +2,7 @@
 let soundfx;
 
 function preload() {
-    soundfx = loadSound("")
+    soundfx = loadSound("assets/bo")
 }
 
 function setup() {
