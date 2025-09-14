@@ -8,9 +8,9 @@ function draw() {
     background(200);
     textSize(72);
     textAlign(CENTER, CENTER);
-    let h = hour();
-    let m = minute();
-    let s = second();
+    let hh = hour();
+    let mm = minute();
+    let ss = second();
 
-    text(nf(hour,2), width/2, 50);
+    text(nf(hh,2), width/2, 50);
 }
