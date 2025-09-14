@@ -32,5 +32,5 @@ function mousePressed() {
 }
 
 function reduceCount() {
-    
+    countdown--;
 }
