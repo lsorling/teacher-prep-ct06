@@ -26,11 +26,11 @@ function draw() {
     background("black");
 
     // sequence matters
-    translate(width/2, ypos);
+    translate(width/2, height/2);
     scale(1, 3);
 
     // then draw text
-    text("I am going to bounce left and right", width/2, 0);
+    text("I am going to bounce left and right", width/2, height/2);
 
     ypos = ypos - 0.6;
 
