@@ -28,5 +28,9 @@ function draw() {
 }
 
 function mousePressed() {
-    setInterval()
+    setInterval(reduceCount, 1000);
+}
+
+function reduceCount() {
+    
 }
