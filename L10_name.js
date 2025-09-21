@@ -34,9 +34,9 @@ function draw() {
     yourName = "Charlie";
     text(yourName, 300,150);
     yourAge = "15";
-    text(yourAge, 300,185);
+    text(yourAge, 300,205);
 
     textSize(18);
     textAlign(RIGHT, TOP);
-    text("Pick a background colour:", 280,350);
+    text("Pick a background colour:", 280,380);
 }
