@@ -18,7 +18,6 @@ function draw() {
     if (counter <= 0) {
         background("indigo");
         soundfx.play();
-        counter = 15;
     }
     textSize(40);
     textAlign(CENTER, CENTER);
