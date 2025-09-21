@@ -15,7 +15,7 @@ function setup() {
 
 function draw() {
     background("pink");
-    
+
     if (state === "stopped") {
         background("indigo");
         if (!soundfx.isPlaying()) {
@@ -33,9 +33,9 @@ function draw() {
 }
 
 function mousePressed() {
-    showInstructions = !showInstructions;
+    
 
-    if (!showInstructions) {
+    if (state === "start" || ) {
         timerId = setInterval(countdown, 1000);
     }
     else {
