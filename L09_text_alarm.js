@@ -32,7 +32,7 @@ function draw() {
     background(200);
 
     if (countdown === 0) {
-        ba
+        background("hotpink");
     }
     textSize(48);
     text(countdown, width/2, height/2);
