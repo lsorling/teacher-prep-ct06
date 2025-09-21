@@ -19,6 +19,7 @@ function draw() {
         background("indigo");
         soundfx.play();
     }
+    if (s)
     textSize(40);
     textAlign(CENTER, CENTER);
     text(counter, width/2, height/2);
