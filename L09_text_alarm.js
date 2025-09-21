@@ -16,8 +16,8 @@ function draw() {
     background("pink");
 
     if (state === "stopped") {
-        background("indigo");
         if (soundfx.isPlaying()) {
+            background("indigo");
         }
         else {
             counter = 15;
