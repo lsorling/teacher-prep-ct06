@@ -15,7 +15,8 @@ function preload() {
 function setup() {
     createCanvas(600,600);
 
-    nameInput = createInput()
+    nameInput = createInput();
+    nameInput.input("")
 
     colorPicker = createColorPicker("pink");
     colorPicker.position(285,375);
