@@ -18,6 +18,6 @@ function mousePressed() {
 
     if (useTimer) {
         removeInterval(timerId);
-        timerId = setInterval(countdown, 1000)
+        timerId = setInterval(countdown, 1000);
     }
 }
