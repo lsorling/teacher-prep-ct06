@@ -26,9 +26,9 @@ function draw() {
 
 function mousePressed() {
     useTimer = !useTimer;
+    clearInterval(timerId);
 
     if (useTimer) {
-        clearInterval(timerId);
         timerId = setInterval(countdown, 1000);
     }
     else {
