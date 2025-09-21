@@ -33,7 +33,7 @@ function draw() {
 }
 
 function mousePressed() {
-    showInstructions = !useTimer;
+    showInstructions = !showInstructions;
 
     if (!showInstructions) {
         timerId = setInterval(countdown, 1000);
@@ -48,6 +48,6 @@ function countdown() {
     if (counter === 0) {
         clearInterval(timerId);
         soundfx.play();
-        useTimer = false;
+        showInstructions = false;
     }
 }
