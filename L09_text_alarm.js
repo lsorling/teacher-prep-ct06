@@ -14,5 +14,7 @@ function draw() {
 }
 
 function mousePressed() {
-    useTimer
+    useTimer = !useTimer;
+
+    if (useTimer)
 }
