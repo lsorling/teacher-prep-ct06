@@ -50,7 +50,7 @@ function mousePressed() {
         interval = setInterval(reduceCount, 1000);
         countdown = 15;
     } else {
-        
+        clearInterval(interval);
     }
 }
 
