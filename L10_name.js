@@ -28,7 +28,8 @@ function draw() {
     fill("white");
     rect(70,50,460,250);
 
-    text(yourName, 300,300);
+    yourName = "Charlie";
+    text(yourName, 100,300);
 
     textSize(18);
     textAlign(RIGHT, TOP);
