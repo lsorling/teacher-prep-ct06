@@ -1,6 +1,9 @@
 // write your codes here
 let bgColor;
 
+let nameInput;
+let 
+
 function preload() {
 
 }
