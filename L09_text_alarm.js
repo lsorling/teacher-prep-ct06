@@ -1,4 +1,3 @@
-const { use } = require("react");
 
 let timerId;
 let useTimer = false;
