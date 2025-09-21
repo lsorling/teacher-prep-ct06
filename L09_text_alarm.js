@@ -49,8 +49,8 @@ function countdown() {
     let it go negative first, ask the students what to do with this?
     */
     if (counter === 0) {
+        state = "stopped";
         clearInterval(timerId);
         soundfx.play(); // sound play cannot be in draw() loop
-        showInstructions = true;
     }
 }
