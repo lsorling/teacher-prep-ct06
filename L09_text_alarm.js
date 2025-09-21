@@ -15,7 +15,7 @@ function setup() {
 
 function draw() {
     background("pink");
-    if (counter <= 0) {
+    if (state === "stopped") {
         background("indigo");
     }
 
