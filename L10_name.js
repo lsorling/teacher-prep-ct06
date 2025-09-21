@@ -16,7 +16,7 @@ function setup() {
     createCanvas(600,600);
 
     colorPicker = createColorPicker("pink");
-    colorPicker.position(285,345);
+    colorPicker.position(285,375);
     background(colorPicker.value());
 
 }
