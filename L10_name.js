@@ -22,7 +22,8 @@ function draw() {
     background(colorPicker.value());
 
     // rect white color
-    rect(0,0,500,350);
+    fill("white");
+    rect(0,0,500,250);
 
     textSize(18);
     textAlign(RIGHT, TOP);
