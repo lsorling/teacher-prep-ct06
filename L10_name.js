@@ -14,6 +14,7 @@ function setup() {
     background("pink");
 
     colorPicker = createColorPicker("pink");
+    colorPicker.position()
 }
 
 function draw() {
