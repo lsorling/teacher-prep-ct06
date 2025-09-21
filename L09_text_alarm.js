@@ -1,5 +1,4 @@
 let timerId;
-let showInstructions = true;
 let counter = 15;
 let soundfx;
 let state = "start"; // start-counting-stopped
