@@ -42,5 +42,6 @@ function countdown() {
     counter--;
     if (counter === 0) {
         clearInterval(timerId);
+        useTimer = false;
     }
 }
