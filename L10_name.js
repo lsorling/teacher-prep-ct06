@@ -16,7 +16,7 @@ function setup() {
     createCanvas(600,600);
 
     nameInput = createInput();
-    nameInput.position(300,350);
+    nameInput.position(300,335);
     nameInput.input(updateName);
 
     colorPicker = createColorPicker("pink");
