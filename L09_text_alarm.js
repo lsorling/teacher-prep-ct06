@@ -29,6 +29,7 @@ let countdown = 15;
 let interval;
 
 function draw() {
+    if (countdown === 0) {}
     background(200);
     textSize(48);
     text(countdown, width/2, height/2);
