@@ -11,7 +11,7 @@ function setup() {
 }
 
 function draw() {
-    textSize(32);
+    textSize(18);
     textAlign(RIGHT, TOP);
-    text("Pick a background colour:", )
+    text("Pick a background colour:", 300,300);
 }
