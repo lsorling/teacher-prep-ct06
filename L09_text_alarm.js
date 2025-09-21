@@ -33,9 +33,9 @@ function draw() {
 }
 
 function mousePressed() {
-    useTimer = !useTimer;
+    showInstructions = !useTimer;
 
-    if (useTimer) {
+    if (!showInstructions) {
         timerId = setInterval(countdown, 1000);
     }
     else {
