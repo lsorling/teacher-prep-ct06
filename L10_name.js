@@ -49,7 +49,7 @@ function draw() {
 
     // rect white color
     fill("white");
-    rect(70,50,460,250);
+    rect(70,50,460,250, 15);
 
     textSize(44);
     fill("black");
