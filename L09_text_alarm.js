@@ -33,9 +33,7 @@ function draw() {
 }
 
 function mousePressed() {
-    
-
-    if (state === "start" || ) {
+    if (state === "start" || state === "stopped") {
         timerId = setInterval(countdown, 1000);
     }
     else {
