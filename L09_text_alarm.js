@@ -3,6 +3,11 @@ let counter = 15;
 let soundfx;
 let state = "start"; // start-counting-stopped
 
+// the teacher's github uses 2 boolean
+// even if i use state variable with 3 values, codes really complicated
+// keep it simple then
+
+
 function preload() {
     soundfx = loadSound("assets/bossaNova.mp3");
 }
