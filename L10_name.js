@@ -2,7 +2,8 @@
 let bgColor;
 
 let nameInput;
-let 
+let ageInput;
+let colorPicker;
 
 function preload() {
 
@@ -11,6 +12,8 @@ function preload() {
 function setup() {
     createCanvas(600,600);
     background("pink");
+
+    colorPicker = colorPicker
 }
 
 function draw() {
