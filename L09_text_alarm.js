@@ -16,7 +16,7 @@ function draw() {
     textSize(40);
     text(counter, width/2, height/2);
     textSize(16);
-    text("")
+    text("Click to start the count down timer");
 }
 
 function mousePressed() {
