@@ -1,6 +1,6 @@
 
 let timerId;
-let useTimer = false;
+let showInstructions = false;
 let counter = 15;
 let soundfx;
 
