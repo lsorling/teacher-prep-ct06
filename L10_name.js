@@ -22,7 +22,7 @@ function setup() {
     nameInput.position(300,335);
     nameInput.input(updateName);
 
-    ageInput = createInput();
+    ageInput = createInput(yourAge, "number");
     ageInput.position(300,365);
     ageInput.input(updateAge);
 
