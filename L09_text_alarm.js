@@ -18,6 +18,7 @@ function draw() {
     if (counter <= 0) {
         background("indigo");
         soundfx.play();
+        counter = 15;
     }
     textSize(40);
     textAlign(CENTER, CENTER);
@@ -32,7 +33,6 @@ function mousePressed() {
     useTimer = !useTimer;
 
     if (useTimer) {
-        counter = 15;
         clearInterval(timerId);
         timerId = setInterval(countdown, 1000);
     }
