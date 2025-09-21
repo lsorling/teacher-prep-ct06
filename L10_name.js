@@ -18,15 +18,15 @@ function setup() {
     yourName = "Charlie";
 
     nameInput = createInput();
-    nameInput.position(285,335);
+    nameInput.position(300,335);
     nameInput.input(updateName);
 
     ageInput = createInput();
-    ageInput.position(285,365);
+    ageInput.position(300,365);
     ageInput.input(updateAge);
 
     colorPicker = createColorPicker("pink");
-    colorPicker.position(285,395);
+    colorPicker.position(300,395);
     background(colorPicker.value());
 
 }
