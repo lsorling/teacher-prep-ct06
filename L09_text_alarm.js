@@ -42,8 +42,7 @@ function draw() {
 }
 
 function mousePressed() {
-    if (timerStart) {}
-    interval = setInterval(reduceCount, 1000);
+    timerStart = !timerStart;
 }
 
 function reduceCount() {
