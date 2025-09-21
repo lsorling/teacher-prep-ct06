@@ -26,7 +26,7 @@ function setup() {
 }
 
 function updateName() {
-
+    yourName = nameInput.value();
 }
 
 function draw() {
