@@ -39,7 +39,7 @@ function draw() {
     textSize(44);
     fill("black");
     textAlign(CENTER, CENTER);
-    yourName = "Charlie";
+    //yourName = "Charlie";
     text(yourName, 300,150);
     yourAge = "15";
     text(yourAge, 300,205);
