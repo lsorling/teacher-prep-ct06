@@ -12,6 +12,8 @@ function preload() {
 
 }
 
+// createInput() must be in the setup
+// prepare first
 function setup() {
     createCanvas(600,600);
     
