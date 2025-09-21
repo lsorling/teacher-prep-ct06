@@ -45,5 +45,6 @@ function countdown() {
         useTimer = false;
         clearInterval(timerId);
         soundfx.play();
+        counter = 15;
     }
 }
