@@ -31,6 +31,7 @@ function mousePressed() {
     useTimer = !useTimer;
 
     if (useTimer) {
+        counter = 15;
         clearInterval(timerId);
         timerId = setInterval(countdown, 1000);
     }
