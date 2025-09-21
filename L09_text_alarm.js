@@ -1,3 +1,5 @@
+const { use } = require("react");
+
 let timerId;
 let useTimer = false;
 let counter = 15;
@@ -35,6 +37,7 @@ function mousePressed() {
 function countdown() {
     counter--;
     if (counter === 0) {
-        s
+        use
+        soundfx.play();
     }
 }
