@@ -16,6 +16,7 @@ function setup() {
     createCanvas(600,600);
     
     yourName = "Charlie";
+    yourAge = "15";
 
     nameInput = createInput();
     nameInput.position(300,335);
@@ -51,7 +52,6 @@ function draw() {
     textAlign(CENTER, CENTER);
     //yourName = "Charlie";
     text(yourName, 300,150);
-    yourAge = "15";
     text(yourAge, 300,205);
 
     textSize(18);
