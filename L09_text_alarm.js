@@ -1,1 +1,5 @@
-function preload()
+let timerId;
+
+function preload() {
+
+}
