@@ -10,7 +10,7 @@ function preload() {
 function setup() {
     createCanvas(600, 400);
     background("pink");
-    textFont("Arial");
+    textFont("Brush Script MTcur");
 }
 
 function draw() {
