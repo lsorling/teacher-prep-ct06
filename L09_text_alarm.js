@@ -38,6 +38,7 @@ function mousePressed() {
         console.log("what is timer id?" + timerId);
     }
     else {
+        state = "counting";
         timerId = setInterval(countdown, 1000);
     }
 }
