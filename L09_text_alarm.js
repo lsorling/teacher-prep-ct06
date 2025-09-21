@@ -19,8 +19,8 @@ function draw() {
         background("indigo");
         soundfx.play();
     }
-    
-    if (!soundfx.isPlaying()) {
+
+    if (!soundfx.isPlaying() && !useTimer) {
         counter = 15;
     }
 
