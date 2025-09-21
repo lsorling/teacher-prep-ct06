@@ -56,8 +56,8 @@ function draw() {
 
     textSize(18);
     textAlign(RIGHT, TOP);
-    text("Enter your name:", 280,335);
-    text("Enter your age:", 280,365);
+    text("Enter your name:", 285,335);
+    text("Enter your age:", 285,365);
 
-    text("Pick a background colour:", 280,400);
+    text("Pick a background colour:", 285,400);
 }
