@@ -17,7 +17,7 @@ function draw() {
     background("pink");
     if (counter <= 0) {
         background("indigo");
-        
+        soundfx.play();
     }
     textSize(40);
     textAlign(CENTER, CENTER);
