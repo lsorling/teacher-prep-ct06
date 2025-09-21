@@ -5,6 +5,9 @@ let nameInput;
 let ageInput;
 let colorPicker;
 
+let yourName;
+let yourAge;
+
 function preload() {
 
 }
