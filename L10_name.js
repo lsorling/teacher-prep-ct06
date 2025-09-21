@@ -16,7 +16,7 @@ function setup() {
     createCanvas(600,600);
     
     yourName = "Charlie";
-    
+
     nameInput = createInput();
     nameInput.position(285,335);
     nameInput.input(updateName);
@@ -48,5 +48,6 @@ function draw() {
 
     textSize(18);
     textAlign(RIGHT, TOP);
+    text("Pick a background colour:", 280,350);
     text("Pick a background colour:", 280,380);
 }
