@@ -27,7 +27,7 @@ function draw() {
     textAlign(CENTER, CENTER);
     text(counter, width/2, height/2);
     textSize(16);
-    if (!useTimer) {
+    if (showInstructions) {
         text("Click to start the count down timer", width/2, height/2+50);
     }
 }
