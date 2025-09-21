@@ -28,6 +28,8 @@ function draw() {
     fill("white");
     rect(70,50,460,250);
 
+    text(yourName, )
+
     textSize(18);
     textAlign(RIGHT, TOP);
     text("Pick a background colour:", 280,350);
