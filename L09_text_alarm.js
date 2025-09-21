@@ -38,8 +38,7 @@ function countdown() {
     counter--;
     if (counter === 0) {
         useTimer = false;
-                clearInterval(timerId);
-
+        clearInterval(timerId);
         soundfx.play();
     }
 }
