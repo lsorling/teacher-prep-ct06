@@ -34,10 +34,12 @@ function setup() {
     background(colorPicker.value());
 }
 
+// callback function whenever value changes
 function updateName() {
     yourName = nameInput.value();
 }
 
+// callback function wh
 function updateAge() {
     yourAge = ageInput.value();
 }
