@@ -4,4 +4,14 @@ function preload() {
 
 }
 
-function set
+function setup() {
+
+}
+
+function draw() {
+
+}
+
+function mousePressed() {
+    
+}
