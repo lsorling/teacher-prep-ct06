@@ -17,10 +17,9 @@ function draw() {
     background("pink");
     if (state === "stopped") {
         background("indigo");
-    }
-
-    if (!soundfx.isPlaying()) {
-        counter = 15;
+        if (!soundfx.isPlaying()) {
+            counter = 15;
+        }
     }
 
     textSize(40);
