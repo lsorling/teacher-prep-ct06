@@ -10,7 +10,7 @@ function preload() {
 function setup() {
     createCanvas(600, 400);
     background("pink");
-    textFont("Verdana");
+    textFont("Verdana"); // any web-safe fonts see w3schools
 }
 
 function draw() {
