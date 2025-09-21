@@ -25,6 +25,9 @@ function setup() {
 
 }
 
+function updateName() {
+    
+}
 function draw() {
     background(colorPicker.value());
 
