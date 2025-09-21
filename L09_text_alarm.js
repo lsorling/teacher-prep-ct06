@@ -15,8 +15,9 @@ function setup() {
 
 function draw() {
     background("pink");
-    if (counter === 0) {
+    if (counter <= 0) {
         background("indigo");
+        
     }
     textSize(40);
     textAlign(CENTER, CENTER);
@@ -39,10 +40,4 @@ function mousePressed() {
 
 function countdown() {
     counter--;
-    if (counter <= 0) {
-        useTimer = false;
-        clearInterval(timerId);
-        soundfx.play();
-        counter = 15;
-    }
 }
