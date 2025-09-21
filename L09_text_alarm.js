@@ -4,11 +4,11 @@ let counter = 15;
 let soundfx;
 
 function preload() {
-    soundfx = loadSound("assets/")
+    soundfx = loadSound("assets/bossaNova.mp3");
 }
 
 function setup() {
-
+    createCanvas()
 }
 
 function draw() {
