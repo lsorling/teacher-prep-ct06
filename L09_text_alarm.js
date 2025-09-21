@@ -39,7 +39,7 @@ function draw() {
     text(countdown, width/2, height/2);
     textSize(10);
     if (timerStart) {
-        timer
+        interval = setInterval()
     } else {
         text("click here to start countdown timer", width/2, height/2+50);
     }
