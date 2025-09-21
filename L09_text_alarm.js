@@ -2,7 +2,7 @@ let timerId;
 let showInstructions = true;
 let counter = 15;
 let soundfx;
-let state = "start";
+let state = "start"; // start-counting-stop
 
 function preload() {
     soundfx = loadSound("assets/bossaNova.mp3");
