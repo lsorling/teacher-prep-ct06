@@ -27,7 +27,8 @@ function setup() {
 
 let countdown = 15;
 let interval;
-let 
+let timerStart = false;
+
 function draw() {
     background(200);
 
@@ -41,6 +42,7 @@ function draw() {
 }
 
 function mousePressed() {
+    if (timerStart) {}
     interval = setInterval(reduceCount, 1000);
 }
 
