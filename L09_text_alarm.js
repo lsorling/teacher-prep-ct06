@@ -38,15 +38,16 @@ function draw() {
     textSize(48);
     text(countdown, width/2, height/2);
     textSize(10);
-    if (timerStart) {
-        interval = setInterval(reduceCount, 1000);
-    } else {
+    if (!timerStart) {
         text("click here to start countdown timer", width/2, height/2+50);
     }
 }
 
 function mousePressed() {
     timerStart = !timerStart;
+    if (timerStart) {
+        interval = setInterval(reduceCount, 1000);
+    }
 }
 
 function reduceCount() {
