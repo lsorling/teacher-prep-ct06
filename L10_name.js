@@ -1,4 +1,6 @@
 // write your codes here
+let bgColor;
+
 function preload() {
 
 }
