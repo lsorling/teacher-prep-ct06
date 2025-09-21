@@ -5,6 +5,7 @@ let nameInput;
 let ageInput;
 let colorPicker;
 
+// variable for actual values
 let yourName;
 let yourAge;
 
