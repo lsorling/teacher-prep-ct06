@@ -16,7 +16,7 @@ function setup() {
 function draw() {
     background("pink");
     if (counter === 0) {
-        background("")
+        background("indigo");
     }
     textSize(40);
     textAlign(CENTER, CENTER);
