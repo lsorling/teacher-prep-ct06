@@ -29,7 +29,6 @@ function setup() {
     colorPicker = createColorPicker("pink");
     colorPicker.position(300,395);
     background(colorPicker.value());
-
 }
 
 function updateName() {
