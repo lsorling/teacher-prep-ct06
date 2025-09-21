@@ -47,7 +47,7 @@ function countdown() {
     counter--;
     if (counter === 0) {
         clearInterval(timerId);
-        soundfx.play(); // 
+        soundfx.play(); // sound play cannot be in draw() loop
         showInstructions = true;
     }
 }
