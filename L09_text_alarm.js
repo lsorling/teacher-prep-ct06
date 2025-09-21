@@ -19,7 +19,7 @@ function draw() {
         background("indigo");
     }
 
-    if (!soundfx.isPlaying() && showInstructions) {
+    if (!soundfx.isPlaying()) {
         counter = 15;
     }
 
