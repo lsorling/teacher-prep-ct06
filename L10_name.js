@@ -11,10 +11,11 @@ function preload() {
 
 function setup() {
     createCanvas(600,600);
-    background("pink");
 
     colorPicker = createColorPicker("pink");
     colorPicker.position(260,300);
+    background(colorPicker.value);
+
 }
 
 function draw() {
