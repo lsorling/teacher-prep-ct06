@@ -10,7 +10,7 @@ function preload() {
 function setup() {
     createCanvas(600, 400);
     background("pink");
-    textFont("Brush Script MTcur");
+    textFont("cursive");
 }
 
 function draw() {
