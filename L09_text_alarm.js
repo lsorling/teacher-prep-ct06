@@ -34,11 +34,11 @@ function draw() {
 
 function mousePressed() {
     if (state === "counting") {
-        timerId = setInterval(countdown, 1000);
-    }
-    else {
         clearInterval(timerId);
         console.log("what is timer id?" + timerId);
+    }
+    else {
+        timerId = setInterval(countdown, 1000);
     }
 }
 
