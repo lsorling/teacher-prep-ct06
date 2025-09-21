@@ -18,7 +18,7 @@ function setup() {
     yourName = "Charlie";
     yourAge = "15";
 
-    nameInput = createInput();
+    nameInput = createInput(yourName);
     nameInput.position(300,335);
     nameInput.input(updateName);
 
