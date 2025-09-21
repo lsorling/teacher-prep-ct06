@@ -21,7 +21,9 @@ function setup() {
     nameInput.position(285,335);
     nameInput.input(updateName);
 
-    ageInput = cre
+    ageInput = createInput();
+    ageInput.position(285, 355);
+    ageInput.input(updateAge);
 
     colorPicker = createColorPicker("pink");
     colorPicker.position(285,395);
