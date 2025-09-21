@@ -14,6 +14,7 @@ function setup() {
 
 function draw() {
     textSize(40);
+    textAlign(CENTER, CENTER);
     text(counter, width/2, height/2);
     textSize(16);
     text("Click to start the count down timer");
