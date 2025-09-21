@@ -23,9 +23,9 @@ function draw() {
 
     // rect white color
     fill("white");
-    rect(0,0,500,250);
+    rect(50,50,500,250);
 
     textSize(18);
     textAlign(RIGHT, TOP);
-    text("Pick a background colour:", 250,300);
+    text("Pick a background colour:", 350,300);
 }
