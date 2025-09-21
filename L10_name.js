@@ -28,13 +28,13 @@ function draw() {
     fill("white");
     rect(70,50,460,250);
 
-    textSize(32);
+    textSize(44);
     fill("black");
     textAlign(CENTER, CENTER);
     yourName = "Charlie";
     text(yourName, 300,150);
     yourAge = "15";
-    text(yourAge, 300,235);
+    text(yourAge, 300,185);
 
     textSize(18);
     textAlign(RIGHT, TOP);
