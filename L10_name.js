@@ -14,7 +14,9 @@ function preload() {
 
 function setup() {
     createCanvas(600,600);
-
+    
+    yourName = "Charlie";
+    
     nameInput = createInput();
     nameInput.position(285,335);
     nameInput.input(updateName);
