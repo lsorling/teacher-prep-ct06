@@ -17,7 +17,9 @@ function draw() {
 
     if (state === "stopped") {
         background("indigo");
-        if (!soundfx.isPlaying()) {
+        if (soundfx.isPlaying()) {
+        }
+        else {
             counter = 15;
         }
     }
