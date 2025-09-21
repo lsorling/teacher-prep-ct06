@@ -37,7 +37,7 @@ function draw() {
     }
     textSize(48);
     text(countdown, width/2, height/2);
-    textSize(10);
+    textSize(16);
     if (!timerStart) {
         countdown = 15;
         text("click here to start countdown timer", width/2, height/2+50);
