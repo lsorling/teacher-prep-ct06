@@ -17,7 +17,6 @@ function draw() {
     background("pink");
     if (counter <= 0) {
         background("indigo");
-        soundfx.play();
     }
 
     if (!soundfx.isPlaying() && !useTimer) {
@@ -46,6 +45,7 @@ function countdown() {
     counter--;
     if (counter === 0) {
         clearInterval(timerId);
+        soundfx.play();
         useTimer = false;
     }
 }
