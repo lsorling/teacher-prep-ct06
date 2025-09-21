@@ -41,9 +41,8 @@ function draw() {
     if (timerStart) {
 
     } else {
-        
+        text("click here to start countdown timer", width/2, height/2+50);
     }
-    text("click here to start countdown timer", width/2, height/2+50);
 }
 
 function mousePressed() {
