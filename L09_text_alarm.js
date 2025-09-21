@@ -31,8 +31,8 @@ function mousePressed() {
     useTimer = !useTimer;
 
     if (useTimer) {
-        timerId = setInterval(countdown, 1000);
         clearInterval(timerId);
+        timerId = setInterval(countdown, 1000);
     }
 }
 
