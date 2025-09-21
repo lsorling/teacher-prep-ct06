@@ -13,7 +13,8 @@ function setup() {
 }
 
 function draw() {
-
+    textSize(40);
+    text(counter, width/2, height/2)
 }
 
 function mousePressed() {
