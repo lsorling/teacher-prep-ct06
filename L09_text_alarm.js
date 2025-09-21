@@ -48,6 +48,6 @@ function countdown() {
     if (counter === 0) {
         clearInterval(timerId);
         soundfx.play();
-        showInstructions = false;
+        showInstructions = true;
     }
 }
