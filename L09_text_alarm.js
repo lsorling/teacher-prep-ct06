@@ -34,4 +34,7 @@ function mousePressed() {
 
 function countdown() {
     counter--;
+    if (counter === 0) {
+        s
+    }
 }
