@@ -1,4 +1,5 @@
 let timerId;
+let useTimer = false;
 
 function preload() {
 
@@ -13,5 +14,5 @@ function draw() {
 }
 
 function mousePressed() {
-    
+    useTimer
 }
