@@ -40,6 +40,7 @@ function mousePressed() {
     }
     else {
         clearInterval(timerId);
+        if ()
     }
 }
 
