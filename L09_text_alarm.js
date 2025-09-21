@@ -21,3 +21,7 @@ function mousePressed() {
         timerId = setInterval(countdown, 1000);
     }
 }
+
+function countdown() {
+    counter--;
+}
