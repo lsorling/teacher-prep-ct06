@@ -16,5 +16,7 @@ function draw() {
 function mousePressed() {
     useTimer = !useTimer;
 
-    if (useTimer)
+    if (useTimer) {
+        removeInterval()
+    }
 }
