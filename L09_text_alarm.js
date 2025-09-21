@@ -31,6 +31,9 @@ function mousePressed() {
         clearInterval(timerId);
         timerId = setInterval(countdown, 1000);
     }
+    else {
+        counter = 15;
+    }
 }
 
 function countdown() {
