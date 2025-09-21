@@ -39,7 +39,7 @@ function updateName() {
     yourName = nameInput.value();
 }
 
-// callback function wh
+// callback function whenever value changes
 function updateAge() {
     yourAge = ageInput.value();
 }
