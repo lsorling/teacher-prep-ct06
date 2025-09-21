@@ -49,6 +49,8 @@ function mousePressed() {
     if (timerStart) {
         interval = setInterval(reduceCount, 1000);
         countdown = 15;
+    } else {
+        
     }
 }
 
