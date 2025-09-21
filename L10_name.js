@@ -14,7 +14,7 @@ function setup() {
 
     colorPicker = createColorPicker("pink");
     colorPicker.position(260,300);
-    background(colorPicker.value);
+
 
 }
 
