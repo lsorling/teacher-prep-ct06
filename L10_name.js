@@ -23,5 +23,5 @@ function draw() {
 
     textSize(18);
     textAlign(RIGHT, TOP);
-    text("Pick a background colour:", 250,20);
+    text("Pick a background colour:", 250,240);
 }
