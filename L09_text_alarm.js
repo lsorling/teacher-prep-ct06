@@ -4,7 +4,7 @@ let counter = 15;
 let soundfx;
 
 function preload() {
-
+    soundfx = loadSound("assets/")
 }
 
 function setup() {
