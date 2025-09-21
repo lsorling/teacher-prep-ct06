@@ -41,7 +41,7 @@ function mousePressed() {
 
 function countdown() {
     counter--;
-    if (counter === 0) {
+    if (counter <= 0) {
         useTimer = false;
         clearInterval(timerId);
         soundfx.play();
