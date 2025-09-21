@@ -33,6 +33,7 @@ function draw() {
 
 function mousePressed() {
     if (state === "counting") {
+        state = "stopped";
         clearInterval(timerId);
         console.log("what is timer id?" + timerId);
     }
