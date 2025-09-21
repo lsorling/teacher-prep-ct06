@@ -22,13 +22,17 @@ function setup() {
     nameInput.input(updateName);
 
     colorPicker = createColorPicker("pink");
-    colorPicker.position(285,375);
+    colorPicker.position(285,395);
     background(colorPicker.value());
 
 }
 
 function updateName() {
     yourName = nameInput.value();
+}
+
+function updateAge() {
+    yourAge = ageInput.value();
 }
 
 function draw() {
