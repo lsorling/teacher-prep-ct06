@@ -32,6 +32,8 @@ function draw() {
     textAlign(CENTER, CENTER);
     yourName = "Charlie";
     text(yourName, 300,200);
+    yourAge = "15";
+    text(yourAge, 300,235);
 
     textSize(18);
     textAlign(RIGHT, TOP);
