@@ -13,6 +13,7 @@ function setup() {
 }
 
 function draw() {
+    background("pink");
     textSize(40);
     textAlign(CENTER, CENTER);
     text(counter, width/2, height/2);
