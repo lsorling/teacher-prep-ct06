@@ -14,7 +14,9 @@ function setup() {
 
 function draw() {
     textSize(40);
-    text(counter, width/2, height/2)
+    text(counter, width/2, height/2);
+    textSize(16);
+    text("")
 }
 
 function mousePressed() {
