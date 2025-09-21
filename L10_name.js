@@ -29,7 +29,7 @@ function draw() {
     rect(70,50,460,250);
 
     yourName = "Charlie";
-    text(yourName, 100,300);
+    text(yourName, 300,200);
 
     textSize(18);
     textAlign(RIGHT, TOP);
