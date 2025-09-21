@@ -13,7 +13,7 @@ function setup() {
     createCanvas(600,600);
 
     colorPicker = createColorPicker("pink");
-    colorPicker.position(260,300);
+    colorPicker.position(260,280);
     background(colorPicker.value());
 
 }
@@ -23,5 +23,5 @@ function draw() {
 
     textSize(18);
     textAlign(RIGHT, TOP);
-    text("Pick a background colour:", 250,240);
+    text("Pick a background colour:", 250,300);
 }
