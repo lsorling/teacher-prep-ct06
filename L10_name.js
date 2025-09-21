@@ -48,6 +48,6 @@ function draw() {
 
     textSize(18);
     textAlign(RIGHT, TOP);
-    text("Pick a background colour:", 280,350);
+    text("Enter your name:", 240,350);
     text("Pick a background colour:", 280,380);
 }
