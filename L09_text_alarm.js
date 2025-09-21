@@ -40,7 +40,7 @@ function mousePressed() {
     }
     else {
         clearInterval(timerId);
-        if ()
+        console.log(""+ timerid)
     }
 }
 
