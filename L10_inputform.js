@@ -1,7 +1,7 @@
 let bgColor;
 let textColor;
 let sliderBg;
-
+let text
 function setup() {
     bgColor = 200;
 
