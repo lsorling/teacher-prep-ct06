@@ -2,7 +2,9 @@ let bgColor;
 let textColor;
 let sliderBg;
 let textColorPicker;
+
 /*
+cos Lessson 11 is button lesson
 */
 
 function setup() {
