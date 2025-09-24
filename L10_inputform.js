@@ -19,6 +19,6 @@ function draw() {
     background(bgColor);
     textSize(32);
     textAlign(RIGHT, CENTER);
-    text("Background Colour:", width/2, height/2);
+    text("Background Colour:", width/2, height/2+10);
 
 }
