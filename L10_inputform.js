@@ -11,13 +11,13 @@ function setup() {
     //                      min, max
     sliderBg = createSlider(0, 255);
     sliderBg.position(width/2, height/2);
-    sliderBg.value
+    sliderBg.value(bgColor);
 }
 
 function draw() {
     // now students can tell me
     // teacher you forget erase
-    background(bgColor);
+    background();
     textSize(32);
     textAlign(RIGHT, CENTER);
     text("Background Colour:", width/2-10, height/2+10);
