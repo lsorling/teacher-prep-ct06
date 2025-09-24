@@ -18,6 +18,7 @@ function draw() {
     // teacher you forget erase
     background(bgColor);
     textSize(32);
-    text("Background Colour:")
+    textAlign(RIGHT, CENTER);
+    text("Background Colour:", width/2, height/2);
 
 }
