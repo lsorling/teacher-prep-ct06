@@ -7,5 +7,7 @@ function setup() {
 }
 
 function draw() {
-
+    // now students can tell me
+    // teacher you forget erase
+    background(200);
 }
