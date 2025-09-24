@@ -27,12 +27,14 @@ function draw() {
 
     textSize(32);
     textAlign(RIGHT, CENTER);
-    if (bgColor < 50) {
-        fill("white");
-    }
-    else {
-        fill("black");
-    }
+    fill("black");
+
+    // if (bgColor < 50) {
+    //     fill("white");
+    // }
+    // else {
+    //     fill("black");
+    // }
     text("Background Colour:", width/2-10, height/2+10);
     text("Text Colour:", width/2-10, height/2+50);
 
