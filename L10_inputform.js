@@ -22,7 +22,7 @@ function draw() {
 
     textSize(32);
     textAlign(RIGHT, CENTER);
-    if (bgColor < 25) {
+    if (bgColor < 50) {
         fill("white");
     }
     else {
