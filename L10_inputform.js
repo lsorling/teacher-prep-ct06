@@ -7,7 +7,7 @@ function setup() {
     bgColor = 200;
 
     // create canvas
-    createCanvas(400, 400);
+    createCanvas(600, 300);
     background(bgColor);
 
     //                      min, max
