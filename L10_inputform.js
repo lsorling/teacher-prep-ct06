@@ -1,4 +1,5 @@
 let bgColor;
+let textColor;
 let sliderBg;
 
 function setup() {
