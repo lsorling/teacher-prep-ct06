@@ -19,9 +19,12 @@ function draw() {
     // teacher you forget erase
     bgColor = sliderBg.value();
     background(bgColor);
-    
+
     textSize(32);
     textAlign(RIGHT, CENTER);
+    if (bgColor < 25) {
+        
+    }
     text("Background Colour:", width/2-10, height/2+10);
 
 }
