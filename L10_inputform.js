@@ -23,7 +23,7 @@ function draw() {
     textSize(32);
     textAlign(RIGHT, CENTER);
     if (bgColor < 25) {
-        
+        fill("white");
     }
     text("Background Colour:", width/2-10, height/2+10);
 
