@@ -1,13 +1,15 @@
 let bgColor;
 
 function setup() {
+    bgColor = 200;
+
     // create canvas
     createCanvas(800, 600);
-    background(200);
+    background(bgColor);
 }
 
 function draw() {
     // now students can tell me
     // teacher you forget erase
-    background(200);
+    background(bgColor);
 }
