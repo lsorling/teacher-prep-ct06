@@ -30,5 +30,6 @@ function draw() {
         fill("black");
     }
     text("Background Colour:", width/2-10, height/2+10);
+    text("Text Colour:", width/2-10, height/2+50);
 
 }
