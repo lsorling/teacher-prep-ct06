@@ -10,7 +10,7 @@ function setup() {
 
     //                      min, max
     sliderBg = createSlider(0, 255);
-    s
+    sliderBg.position(width/2, height/2);
 }
 
 function draw() {
