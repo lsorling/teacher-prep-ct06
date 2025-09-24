@@ -17,7 +17,7 @@ function setup() {
 function draw() {
     // now students can tell me
     // teacher you forget erase
-    background();
+    background(bgColor);
     textSize(32);
     textAlign(RIGHT, CENTER);
     text("Background Colour:", width/2-10, height/2+10);
