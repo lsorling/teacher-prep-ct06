@@ -1,4 +1,4 @@
-
+let bgColor;
 
 function setup() {
     // create canvas
