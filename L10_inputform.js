@@ -15,7 +15,7 @@ function setup() {
     sliderBg.position(width/2, height/2);
     sliderBg.value(bgColor);
 
-    textColorPicker
+    textColorPicker = createColorPicker("hotpink");
 }
 
 function draw() {
