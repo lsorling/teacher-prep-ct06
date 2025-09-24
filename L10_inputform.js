@@ -17,5 +17,7 @@ function draw() {
     // now students can tell me
     // teacher you forget erase
     background(bgColor);
+    textSize(32);
+    text("Background Colour:")
 
 }
