@@ -25,6 +25,9 @@ function draw() {
     if (bgColor < 25) {
         fill("white");
     }
+    else {
+        fill("black");
+    }
     text("Background Colour:", width/2-10, height/2+10);
 
 }
