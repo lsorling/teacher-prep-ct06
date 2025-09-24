@@ -1,4 +1,5 @@
 let bgColor;
+let sliderBg;
 
 function setup() {
     bgColor = 200;
@@ -7,7 +8,7 @@ function setup() {
     createCanvas(800, 600);
     background(bgColor);
 
-    createSlider()
+    createSlider(0, 255);
 }
 
 function draw() {
