@@ -27,7 +27,7 @@ function draw() {
 
     textSize(32);
     textAlign(RIGHT, CENTER);
-    fill("black");
+    fill(textColorPicker.value());
 
     // if (bgColor < 50) {
     //     fill("white");
@@ -35,6 +35,7 @@ function draw() {
     // else {
     //     fill("black");
     // }
+
     text("Background Colour:", width/2-10, height/2+10);
     text("Text Colour:", width/2-10, height/2+50);
 
