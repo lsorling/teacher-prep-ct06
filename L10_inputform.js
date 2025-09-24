@@ -8,7 +8,9 @@ function setup() {
     createCanvas(800, 600);
     background(bgColor);
 
+    //                      min, max
     sliderBg = createSlider(0, 255);
+    s
 }
 
 function draw() {
