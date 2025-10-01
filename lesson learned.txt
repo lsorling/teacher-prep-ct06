@@ -1,3 +1,16 @@
+
+ct06 monday students told me
+
+colorPicker.position(x, y)
+is from top left of webpage.
+to note.
+
+
+ct06 monday they are confused with setInterval
+ct06 wednesday show them 2nd interval for blinking colors.
+
+
+
 for ct06
 
 i have some slow students in monday and wednesday
