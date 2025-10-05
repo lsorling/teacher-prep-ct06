@@ -41,6 +41,7 @@ function setup() {
 
     nameInput = createInput(yourname, "text")
     nameInput.position(width/2, 280);
+    nameInput.input(updateName);
 }
 
 function generateStory() {
