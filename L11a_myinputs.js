@@ -33,5 +33,7 @@ function setup() {
 
 function draw() {
     background(colorPicker.value());
-    textAlign()
+    textAlign(RIGHT,CENTER);
+    textSize(18);
+    text("Choose a color:", wi)
 }
