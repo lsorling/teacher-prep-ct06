@@ -26,6 +26,8 @@ let colorPicker;
 let button;
 let story;
 
+let 
+
 function setup() {
     createCanvas(600,700);
     background(bgColor);
