@@ -30,10 +30,10 @@ function setup() {
     createCanvas(600,700);
     background(bgColor);
     colorPicker = createColorPicker(bgColor);
-    colorPicker.position(width/2, height/2);
+    colorPicker.position(width/2, 200);
 
     button = createButton("Generate a Story");
-    button.position(width/2, height/2+40);
+    button.position(width/2, 240);
     button.mousePressed(generateStory);
 }
 
