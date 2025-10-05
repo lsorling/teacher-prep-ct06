@@ -32,5 +32,5 @@ function setup() {
 }
 
 function draw() {
-    background(bgColor);
+    background(colorPicker.value());
 }
