@@ -35,5 +35,5 @@ function draw() {
     background(colorPicker.value());
     textAlign(RIGHT,CENTER);
     textSize(18);
-    text("Choose a color:", width/2, height/2);
+    text("Choose a color:", width/2, height/2+15);
 }
