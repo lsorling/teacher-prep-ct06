@@ -1,3 +1,4 @@
+// end sem test question 1
 let xpos = 50;
 let speed = 3;
 function setup() {
@@ -11,7 +12,7 @@ function draw() {
     fill("red");
     circle(xpos, height/2, 50);
     xpos = xpos + speed;
-    if (xpos > width) {
+    if (xpos > width-) {
         speed = speed * -1;
     }
     if (xpos < 0) {
