@@ -31,7 +31,8 @@ function setup() {
     colorPicker = createColorPicker(bgColor);
     colorPicker.position(width/2, height/2);
 
-    button = createButton("");
+    button = createButton("Generate a Story");
+    button.position(width/2, height/2+80);
 }
 
 function draw() {
