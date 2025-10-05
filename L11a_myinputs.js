@@ -21,6 +21,7 @@ function draw() {
     }
 }
 */
+let colorPicker;
 
 function setup() {
     createCanvas(600,400);
