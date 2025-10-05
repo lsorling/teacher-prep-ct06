@@ -58,7 +58,7 @@ function draw() {
     textSize(18);
     fill("black");
     text("Choose a color:", width/2-10, 220);
-    text("Give me a name:", width/2-10, 280);
+    text("Give me a name:", width/2-10, 290);
 
     fill("white");
     rect(100,350,400,100,25);
