@@ -1,3 +1,4 @@
+/*
 // end sem test question 1
 let xpos = 50;
 let speed = 3;
@@ -19,3 +20,5 @@ function draw() {
         speed = speed * -1;
     }
 }
+*/
+function setup()
