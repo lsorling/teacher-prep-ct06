@@ -32,7 +32,7 @@ function setup() {
     colorPicker.position(width/2, height/2);
 
     button = createButton("Generate a Story");
-    button.position(width/2, height/2+80);
+    button.position(width/2, height/2+40);
 }
 
 function draw() {
