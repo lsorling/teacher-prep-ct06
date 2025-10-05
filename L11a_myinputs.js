@@ -30,6 +30,8 @@ function setup() {
     background(bgColor);
     colorPicker = createColorPicker(bgColor);
     colorPicker.position(width/2, height/2);
+
+    button = createButton("");
 }
 
 function draw() {
