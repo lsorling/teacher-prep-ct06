@@ -23,6 +23,7 @@ function draw() {
 */
 let bgColor = "hotpink";
 let colorPicker;
+let button;
 
 function setup() {
     createCanvas(600,400);
