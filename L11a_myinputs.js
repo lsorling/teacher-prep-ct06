@@ -44,6 +44,10 @@ function setup() {
     nameInput.input(updateName);
 }
 
+function updateName() {
+    yourname = nameInput.value();
+}
+
 function generateStory() {
     story = "this is a random story";
 }
