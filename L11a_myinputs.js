@@ -49,9 +49,9 @@ function draw() {
     text("Choose a color:", width/2-10, 220);
 
     fill("white");
-    rect(100,450,400,100,25);
+    rect(100,350,400,100,25);
     fill("black");
     textSize(14);
     textAlign(LEFT, CENTER);
-    text(story, 120, 475);
+    text(story, 120, 375);
 }
