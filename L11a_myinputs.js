@@ -5,5 +5,5 @@ function setup() {
 }
 
 function draw() {
-
+    circle(50, height/2, )
 }
