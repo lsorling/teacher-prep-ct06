@@ -26,10 +26,10 @@ let colorPicker;
 
 function setup() {
     createCanvas(600,400);
-    background(200);
+    background(bgColor);
     colorPicker = createColorPicker("hotpink");
 }
 
 function draw() {
-
+    background(bgColor);
 }
