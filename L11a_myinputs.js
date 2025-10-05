@@ -49,5 +49,5 @@ function draw() {
     text("Choose a color:", width/2-10, height/2+15);
 
     fill("white");
-    rect(100,100,100,100,25);
+    rect(100,450,300,100,25);
 }
