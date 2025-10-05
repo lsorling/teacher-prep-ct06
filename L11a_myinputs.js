@@ -45,7 +45,9 @@ function draw() {
     background(colorPicker.value());
     textAlign(RIGHT,CENTER);
     textSize(18);
+    fill("black");
     text("Choose a color:", width/2-10, height/2+15);
 
     fill("white");
+    rect()
 }
