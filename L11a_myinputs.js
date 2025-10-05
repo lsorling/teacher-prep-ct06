@@ -50,5 +50,5 @@ function draw() {
 
     fill("white");
     rect(100,450,400,100,25);
-    text()
+    text(story, 120, 465);
 }
