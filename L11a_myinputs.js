@@ -51,6 +51,7 @@ function draw() {
     fill("white");
     rect(100,450,400,100,25);
     fill("black");
+    textSize(14);
     textAlign(LEFT, CENTER);
     text(story, 120, 465);
 }
