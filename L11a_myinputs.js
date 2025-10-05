@@ -24,6 +24,7 @@ function draw() {
 let bgColor = "hotpink";
 let colorPicker;
 let button;
+let story;
 
 function setup() {
     createCanvas(600,400);
@@ -37,7 +38,7 @@ function setup() {
 }
 
 function generateStory() {
-    
+    story = ""
 }
 
 function draw() {
