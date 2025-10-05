@@ -40,6 +40,7 @@ function setup() {
     button.mousePressed(generateStory);
 
     nameInput = createInput(yourname, "text")
+    nameInput.position(width/2,)
 }
 
 function generateStory() {
