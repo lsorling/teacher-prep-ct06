@@ -28,6 +28,7 @@ function setup() {
     createCanvas(600,400);
     background(bgColor);
     colorPicker = createColorPicker("hotpink");
+    colorPicker.position(width/2, height/2);
 }
 
 function draw() {
