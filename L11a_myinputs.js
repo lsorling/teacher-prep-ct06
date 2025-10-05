@@ -33,6 +33,7 @@ function setup() {
 
     button = createButton("Generate a Story");
     button.position(width/2, height/2+40);
+    b
 }
 
 function draw() {
