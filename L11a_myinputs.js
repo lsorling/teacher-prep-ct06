@@ -46,7 +46,7 @@ function draw() {
     textAlign(RIGHT,CENTER);
     textSize(18);
     fill("black");
-    text("Choose a color:", width/2-10, height/2+15);
+    text("Choose a color:", width/2-10, 220);
 
     fill("white");
     rect(100,450,400,100,25);
