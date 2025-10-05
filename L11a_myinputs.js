@@ -27,7 +27,7 @@ let button;
 let story;
 
 let nameInput;
-let name;
+let name = "David";
 
 function setup() {
     createCanvas(600,700);
@@ -38,6 +38,8 @@ function setup() {
     button = createButton("Generate a Story");
     button.position(width/2, 240);
     button.mousePressed(generateStory);
+
+    nameInput = createInput()
 }
 
 function generateStory() {
