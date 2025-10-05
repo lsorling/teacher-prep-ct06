@@ -27,7 +27,7 @@ let button;
 let story;
 
 function setup() {
-    createCanvas(600,400);
+    createCanvas(600,700);
     background(bgColor);
     colorPicker = createColorPicker(bgColor);
     colorPicker.position(width/2, height/2);
@@ -46,4 +46,5 @@ function draw() {
     textAlign(RIGHT,CENTER);
     textSize(18);
     text("Choose a color:", width/2-10, height/2+15);
+    
 }
