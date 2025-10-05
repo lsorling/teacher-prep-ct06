@@ -50,6 +50,7 @@ still dont know the relationship between 2 variables
 and connecting the function together with the input changes.
 */
 
+
 function updateName() {
     yourname = nameInput.value();
 }
