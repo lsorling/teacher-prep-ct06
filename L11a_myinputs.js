@@ -38,7 +38,7 @@ function setup() {
 }
 
 function generateStory() {
-    story = ""
+    story = "this is a random story";
 }
 
 function draw() {
