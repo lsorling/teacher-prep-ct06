@@ -49,7 +49,7 @@ function updateName() {
 }
 
 function generateStory() {
-    story = "this is a random story";
+    story = "this is a random story for " + yourname;
 }
 
 function draw() {
