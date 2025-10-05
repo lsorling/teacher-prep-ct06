@@ -21,11 +21,13 @@ function draw() {
     }
 }
 */
+let bgColor;
 let colorPicker;
 
 function setup() {
     createCanvas(600,400);
     background(200);
+    colorPicker = createColorPicker("hotpink");
 }
 
 function draw() {
