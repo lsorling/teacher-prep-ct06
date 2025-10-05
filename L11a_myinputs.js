@@ -21,7 +21,7 @@ function draw() {
     }
 }
 */
-let bgColor;
+let bgColor = "hotpink";
 let colorPicker;
 
 function setup() {
