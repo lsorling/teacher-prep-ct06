@@ -26,7 +26,8 @@ let colorPicker;
 let button;
 let story;
 
-let 
+let nameInput;
+let name;
 
 function setup() {
     createCanvas(600,700);
