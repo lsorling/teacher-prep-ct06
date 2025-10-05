@@ -50,6 +50,9 @@ still dont know the relationship between 2 variables
 and connecting the function together with the input changes.
 */
 
+/*
+same for Wed ct06
+*/
 
 function updateName() {
     yourname = nameInput.value();
