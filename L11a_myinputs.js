@@ -36,7 +36,7 @@ function setup() {
     colorPicker.position(width/2, 200);
 
     button = createButton("Generate a Story");
-    button.position(width/2, 260);
+    button.position(width/2, 310);
     button.mousePressed(generateStory);
 
     nameInput = createInput(yourname, "text")
