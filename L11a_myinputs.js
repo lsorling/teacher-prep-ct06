@@ -36,6 +36,7 @@ function setup() {
     colorPicker.position(width/2, 200);
 
     button = createButton("Generate a Story");
+    button.size(50,50);
     button.position(width/2, 310);
     button.mousePressed(generateStory);
 
