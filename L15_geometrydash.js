@@ -48,7 +48,8 @@ function draw() {
     rect(0,height-15,width,10);
     playerYpos = playerYpos+playerVelocityY;
     playerVelocityY = playerVelocityY+0.8;
-    if (keyIsDown(32)) {
+    
+    if (keyIsDown(32) && isGrounded) {
         playerVelocityY = -15;
     }
     // must stop the player from going down further
