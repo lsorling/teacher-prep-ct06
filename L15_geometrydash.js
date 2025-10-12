@@ -54,6 +54,7 @@ function draw() {
     }
     // must stop the player from going down further
     if (playerYpos > height-65) {
+        isGrounded = true;
         playerYpos = height-65;
     }
     for (let index=0; index<3; index++) {
