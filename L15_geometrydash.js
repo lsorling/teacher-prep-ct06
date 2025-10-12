@@ -25,7 +25,7 @@ function setup() {
 function draw() {
     background("black");
     fill("cyan");
-    rect(50,playerYpos,50,50,10);
+    rect(80,playerYpos,50,50,10);
     fill("red");
     rect(0,height-15,width,10);
     playerYpos = playerYpos+playerVelocityY;
