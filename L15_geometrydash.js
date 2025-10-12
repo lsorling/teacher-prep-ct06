@@ -57,7 +57,7 @@ function draw() {
     for (let index=0; index<3; index++) {
         let obstaclesX = spikesX[index];
         drawSpike(obstaclesX, height-15, 35);
-        obstaclesX = obstaclesX - 3; // x velocity is 5;
+        obstaclesX = obstaclesX - random(1,5); // x velocity is 5;
         if (obstaclesX < 0) {
             obstaclesX = width + random(80,200);
         }
