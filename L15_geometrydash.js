@@ -21,7 +21,10 @@ function setup() {
     playerYpos = height-65;
     playerVelocityY = 2
 }
-function drawSpike(xpos, ypos, )
+function drawSpike(xpos, ypos, size) {
+    fill("orange");
+    triangle(xpos)
+}
 function draw() {
     background("black");
     fill(220);
