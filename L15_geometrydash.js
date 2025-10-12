@@ -21,7 +21,9 @@ function setup() {
     playerYpos = height-65;
     playerVelocityY = 2
 }
-
+/*
+i need 3 spikes
+*/
 function drawSpike(xpos, ypos, size) {
     fill("lime");
     triangle(xpos,ypos, xpos+size/2, ypos-size, xpos+size, ypos);
