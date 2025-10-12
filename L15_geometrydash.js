@@ -15,6 +15,8 @@ let player;
 let playerYpos;
 let playerVelocityY;
 
+let spikesX = [];
+
 function setup() {
     createCanvas(800,600);
     background("black");
