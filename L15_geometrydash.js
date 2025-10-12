@@ -26,6 +26,7 @@ function draw() {
     background("black");
     fill("gray");
     textAlign(CENTER, CENTER);
+    textSize(24);
     text("Press space to jump", width/2, 50);
     fill("cyan");
     rect(80,playerYpos,50,50,10);
