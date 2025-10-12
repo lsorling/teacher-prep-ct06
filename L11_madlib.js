@@ -6,5 +6,7 @@ let templates = [
 ];
 
 function setup() {
-    createCanvas()
+    createCanvas(800,600);
+    let selected = random(templates);
+    text(selected, 50,50);
 }
