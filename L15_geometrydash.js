@@ -5,6 +5,9 @@ i can remember how to control the player
 using gravity is pulling it down
 
 */
+/*
+do obstacles
+*/
 let player;
 let playerYpos;
 let playerVelocityY;
