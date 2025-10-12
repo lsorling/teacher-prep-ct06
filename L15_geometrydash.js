@@ -1,4 +1,10 @@
 // write your codes here
+/*
+cool
+i can remember how to control the player
+using gravity is pulling it down
+
+*/
 let player;
 let playerYpos;
 let playerVelocityY;
