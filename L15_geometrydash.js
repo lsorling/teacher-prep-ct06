@@ -46,13 +46,15 @@ function draw() {
     rect(80,playerYpos,50,50,10);
     fill("red");
     rect(0,height-15,width,10);
-    isGrounded = false;
 
     playerYpos = playerYpos+playerVelocityY;
     playerVelocityY = playerVelocityY+0.8;
 
     if (keyIsDown(32) && isGrounded) {
         playerVelocityY = -20;
+    }
+    else {
+
     }
 
     // must stop the player from going down further
