@@ -46,5 +46,5 @@ function draw() {
     if (playerYpos > height-65) {
         playerYpos = height-65;
     }
-    drawSpike(wi)
+    drawSpike(width-200, height-15, 55);
 }
