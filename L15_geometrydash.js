@@ -19,5 +19,7 @@ function draw() {
     if (keyIsDown(32)) {
         playerVelocityY = -10;
     }
-    if (playerYpos > )
+    if (playerYpos > height-80) {
+        playerYpos = height-80;
+    }
 }
