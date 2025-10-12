@@ -24,7 +24,7 @@ function setup() {
 
 function draw() {
     background("black");
-    fill("gray");
+    fill(220);
     textAlign(CENTER, CENTER);
     textSize(24);
     text("Press space to jump", width/2, 50);
