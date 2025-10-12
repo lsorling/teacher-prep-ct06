@@ -47,17 +47,19 @@ function draw() {
     fill("red");
     rect(0,height-15,width,10);
     isGrounded = false;
+    // must stop the player from going down further
+    if (playerYpos >= height-65) {
+        isGrounded = true;
+        playerYpos = height-65;
+    }
+    
     playerYpos = playerYpos+playerVelocityY;
     playerVelocityY = playerVelocityY+0.8;
 
     if (keyIsDown(32) && isGrounded) {
         playerVelocityY = -20;
     }
-    // must stop the player from going down further
-    if (playerYpos >= height-65) {
-        isGrounded = true;
-        playerYpos = height-65;
-    }
+
 
     for (let index=0; index<3; index++) {
         let obstaclesX = spikesX[index];
