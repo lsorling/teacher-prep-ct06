@@ -9,5 +9,5 @@ function setup() {
 }
 
 function draw() {
-    rect(50,)
+    rect(50,height-50,50,50,10);
 }
