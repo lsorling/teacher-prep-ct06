@@ -11,5 +11,8 @@ function setup() {
 function draw() {
     background("black");
     fill("cyan");
-    rect(50,height-50,50,50,10);
+    rect(50,height-80,50,50,10);
+    if (keyIsDown(32)) {
+        playerv
+    }
 }
