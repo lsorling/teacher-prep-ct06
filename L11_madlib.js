@@ -1,6 +1,6 @@
 // write your codes here
 let templates = [
-    "{noun} {verb} ",
+    "{noun} {verb} over the wall like humpy dumpy",
     "{verb} line 2 {noun}",
     "{verb} {noun} line 3",
 ];
