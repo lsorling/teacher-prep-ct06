@@ -5,3 +5,6 @@ let templates = [
     "{verb} {noun} line 3",
 ];
 
+function setup() {
+    co
+}
