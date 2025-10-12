@@ -50,7 +50,7 @@ function draw() {
     playerVelocityY = playerVelocityY+0.8;
 
     if (keyIsDown(32) && isGrounded) {
-        playerVelocityY = -15;
+        playerVelocityY = -18;
     }
     // must stop the player from going down further
     if (playerYpos > height-65) {
@@ -60,7 +60,7 @@ function draw() {
     else {
         isGrounded = false;
     }
-    
+
     for (let index=0; index<3; index++) {
         let obstaclesX = spikesX[index];
         drawSpike(obstaclesX, height-16, 35);
