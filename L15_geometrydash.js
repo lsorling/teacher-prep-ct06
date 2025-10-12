@@ -57,6 +57,6 @@ function draw() {
     for (let index=0; index<3; index++) {
         let obstaclesX = spikesX[index];
         drawSpike(obstaclesX, height-15, 35);
-        spikesX[index] = spikesX[index] + 
+        spikesX[index] = spikesX[index] - 5; // x velocity is 5;
     }
 }
