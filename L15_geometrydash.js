@@ -17,6 +17,7 @@ let playerVelocityY;
 
 let isGrounded = true;
 let spikesX = [];
+let spikesCount = 10;
 
 function setup() {
     createCanvas(800,600);
