@@ -7,6 +7,7 @@ function setup() {
     createCanvas(800,600);
     background("black");
     playerYpos = height-80;
+    playerVelocityY = 2
 }
 
 function draw() {
