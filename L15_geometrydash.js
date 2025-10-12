@@ -59,7 +59,7 @@ function draw() {
         drawSpike(obstaclesX, height-15, 35);
         obstaclesX = obstaclesX - 3; // x velocity is 5;
         if (obstaclesX < 0) {
-            obstaclesX = width + random(80,150);
+            obstaclesX = width + random(80,200);
         }
         spikesX[index] = obstaclesX;
     }
