@@ -31,6 +31,7 @@ function draw() {
     if (keyIsDown(32)) {
         playerVelocityY = -25;
     }
+    // must stop the player from going down further
     if (playerYpos > height-80) {
         playerYpos = height-80;
     }
