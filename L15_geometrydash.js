@@ -57,6 +57,10 @@ function draw() {
         isGrounded = true;
         playerYpos = height-65;
     }
+    else {
+        isGrounded = false;
+    }
+    
     for (let index=0; index<3; index++) {
         let obstaclesX = spikesX[index];
         drawSpike(obstaclesX, height-16, 35);
