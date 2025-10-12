@@ -13,6 +13,6 @@ function draw() {
     fill("cyan");
     rect(50,height-80,50,50,10);
     if (keyIsDown(32)) {
-        playerv
+        playerVelocityY = 
     }
 }
