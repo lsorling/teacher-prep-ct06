@@ -21,7 +21,11 @@ function setup() {
     createCanvas(800,600);
     background("black");
     playerYpos = height-65;
-    playerVelocityY = 2
+    playerVelocityY = 2;
+
+    for (let index=0; index<3; index++) {
+        
+    }
 }
 /*
 i need 3 spikes in an array
