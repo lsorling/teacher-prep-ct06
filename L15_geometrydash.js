@@ -23,7 +23,7 @@ function setup() {
 }
 function drawSpike(xpos, ypos, size) {
     fill("orange");
-    triangle(xpos)
+    triangle(xpos,ypos, xpos+size/2,)
 }
 function draw() {
     background("black");
