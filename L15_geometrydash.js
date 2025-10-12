@@ -53,9 +53,6 @@ function draw() {
     if (keyIsDown(32) && isGrounded) {
         playerVelocityY = -20;
     }
-    else {
-
-    }
 
     // must stop the player from going down further
     if (playerYpos > height-65) {
