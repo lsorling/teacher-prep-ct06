@@ -2,8 +2,9 @@
 let player;
 let playerYpos;
 let playerVelocityY;
-function setup() {
 
+function setup() {
+    createCanvas()
 }
 function draw() {
 
