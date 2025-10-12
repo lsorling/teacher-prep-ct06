@@ -25,7 +25,7 @@ function setup() {
     playerYpos = height-65;
     playerVelocityY = 2;
 
-    for (let index=0; index<3; index++) {
+    for (let index=0; index<spikesCount; index++) {
         spikesX[index] = index *135 + width;
     }
 }
@@ -64,7 +64,7 @@ function draw() {
         isGrounded = false;
     }
 
-    for (let index=0; index<3; index++) {
+    for (let index=0; index<spikesCount; index++) {
         let obstaclesX = spikesX[index];
         drawSpike(obstaclesX, height-16, 35);
         obstaclesX = obstaclesX - 2; // x velocity is 5;
