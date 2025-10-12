@@ -33,7 +33,7 @@ function setup() {
 i need 3 spikes in an array
 */
 function drawSpike(xpos, ypos, size) {
-    if (random(1,2) == 1) {
+    if (random(1,2) > 1.5) {
         fill("lime");
     }
     else {
