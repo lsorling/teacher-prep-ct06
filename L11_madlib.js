@@ -1,4 +1,9 @@
 // write your codes here
+// teach array first
+// teach pick random() one from the array
+// then teach replace()
+// but must assign back to the same variable
+//
 let templates = [
     "{noun} {verb} over the wall like humpy dumpy",
     "in Roblox, {noun} is {verb}ing",
