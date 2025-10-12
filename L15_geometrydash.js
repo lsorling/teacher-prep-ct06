@@ -24,6 +24,8 @@ function setup() {
 
 function draw() {
     background("black");
+    fill("gray");
+    
     fill("cyan");
     rect(80,playerYpos,50,50,10);
     fill("red");
