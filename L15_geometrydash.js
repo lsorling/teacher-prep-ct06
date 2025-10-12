@@ -27,7 +27,7 @@ function draw() {
     fill("cyan");
     rect(50,playerYpos,50,50,10);
     fill("red");
-    rect(0,0,wi)
+    rect(0,height-10,width,10);
     playerYpos = playerYpos+playerVelocityY;
     playerVelocityY = playerVelocityY+1.5;
     if (keyIsDown(32)) {
