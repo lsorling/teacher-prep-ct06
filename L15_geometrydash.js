@@ -22,7 +22,7 @@ function setup() {
     playerVelocityY = 2
 }
 /*
-i need 3 spikes
+i need 3 spikes in an array
 */
 function drawSpike(xpos, ypos, size) {
     fill("lime");
@@ -48,5 +48,5 @@ function draw() {
     if (playerYpos > height-65) {
         playerYpos = height-65;
     }
-    drawSpike(width-200, height-15, 55);
+    drawSpike(width-200, height-15, 35);
 }
