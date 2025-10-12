@@ -15,6 +15,7 @@ function draw() {
     fill("cyan");
     rect(50,playerYpos,50,50,10);
     playerYpos = playerYpos+playerVelocityY;
+    playerVelocityY = 
     if (keyIsDown(32)) {
         playerVelocityY = -6;
     }
