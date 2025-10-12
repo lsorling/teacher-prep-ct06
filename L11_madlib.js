@@ -10,7 +10,7 @@ function setup() {
     let selected = random(templates);
     let noun = "The boy";
     selected.replace("{noun}", noun)
-            .replace();
+            .replace("{verb}", verb);
     textSize(36);
     text(selected, 50,50);
 }
