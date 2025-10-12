@@ -4,10 +4,13 @@ cool
 i can remember how to control the player
 using gravity is pulling it down
 
+cos i can remember how the player control with gravity and velocity
 */
+
 /*
 do obstacles
 */
+
 let player;
 let playerYpos;
 let playerVelocityY;
