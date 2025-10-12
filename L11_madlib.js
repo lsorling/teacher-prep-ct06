@@ -1,4 +1,6 @@
 // write your codes here
+//
+// strategy:
 // teach array first
 // teach pick random() one from the array
 // then teach replace()
