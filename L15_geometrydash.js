@@ -55,7 +55,7 @@ function draw() {
         playerYpos = height-65;
     }
     for (let index=0; index<3; index++) {
-        let 
+        let obstaclesX = spikesX[index];
         drawSpike(width-200, height-15, 35);
     }
 }
