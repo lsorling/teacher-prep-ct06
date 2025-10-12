@@ -25,7 +25,7 @@ function setup() {
 function draw() {
     background("black");
     fill("gray");
-    
+    text("Press space to jump", width/2, )
     fill("cyan");
     rect(80,playerYpos,50,50,10);
     fill("red");
