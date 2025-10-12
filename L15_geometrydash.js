@@ -19,4 +19,5 @@ function draw() {
     if (keyIsDown(32)) {
         playerVelocityY = -10;
     }
+    if (playerYpos > )
 }
