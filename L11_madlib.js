@@ -8,7 +8,8 @@ let templates = [
 function setup() {
     createCanvas(800,600);
     let selected = random(templates);
-    selected.replace("{noun}")
+    let noun = "The boy";
+    selected.replace("{noun}", noun);
     textSize(36);
     text(selected, 50,50);
 }
