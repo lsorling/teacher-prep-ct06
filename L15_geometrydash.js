@@ -6,12 +6,13 @@ let playerVelocityY;
 function setup() {
     createCanvas(800,600);
     background("black");
+    playerYpos = height-80;
 }
 
 function draw() {
     background("black");
     fill("cyan");
-    rect(50,height-80,50,50,10);
+    rect(50,playerYpos,50,50,10);
     if (keyIsDown(32)) {
         playerVelocityY = 6;
     }
