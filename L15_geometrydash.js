@@ -1,6 +1,6 @@
 // write your codes here
 let player;
-let
+let playerYpos
 function setup() {
 
 }
