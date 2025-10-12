@@ -9,6 +9,7 @@ function setup() {
     createCanvas(800,600);
     let selected = random(templates);
     let noun = "The boy";
+    let verb = "jump";
     selected.replace("{noun}", noun)
             .replace("{verb}", verb);
     textSize(36);
