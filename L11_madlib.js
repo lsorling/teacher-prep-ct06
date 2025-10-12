@@ -8,5 +8,6 @@ let templates = [
 function setup() {
     createCanvas(800,600);
     let selected = random(templates);
+    textSize(36);
     text(selected, 50,50);
 }
