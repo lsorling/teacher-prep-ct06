@@ -15,6 +15,7 @@ let player;
 let playerYpos;
 let playerVelocityY;
 
+let isGround = true;
 let spikesX = [];
 
 function setup() {
