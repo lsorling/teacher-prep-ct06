@@ -1,7 +1,7 @@
 // write your codes here
 let templates = [
     "{noun} {verb} over the wall like humpy dumpy",
-    "{verb} line 2 {noun}",
+    "in Roblox, {verb} l {noun}",
     "{verb} {noun} line 3",
 ];
 
