@@ -24,7 +24,7 @@ function setup() {
     playerVelocityY = 2;
 
     for (let index=0; index<3; index++) {
-        spikesX[index] = index *15 + wi
+        spikesX[index] = index *15 + width-50;
     }
 }
 /*
