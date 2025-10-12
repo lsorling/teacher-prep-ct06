@@ -58,13 +58,12 @@ function draw() {
         playerYpos = height-65;
     }
     else {
-        isGrounded = false;
     }
 
     for (let index=0; index<3; index++) {
         let obstaclesX = spikesX[index];
         drawSpike(obstaclesX, height-16, 35);
-        obstaclesX = obstaclesX - 1; // x velocity is 5;
+        obstaclesX = obstaclesX - 2; // x velocity is 5;
         if (obstaclesX < 0) {
             obstaclesX = width + random(150,300);
         }
