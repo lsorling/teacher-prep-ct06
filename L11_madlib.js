@@ -6,5 +6,5 @@ let templates = [
 ];
 
 function setup() {
-    co
+    createCanvas()
 }
