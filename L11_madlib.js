@@ -2,7 +2,7 @@
 let templates = [
     "{noun} {verb} over the wall like humpy dumpy",
     "in Roblox, {noun} is {verb}ing",
-    "{verb} {noun} line 3",
+    "{verb}, {noun} line 3",
 ];
 
 function setup() {
