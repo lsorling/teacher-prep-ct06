@@ -46,6 +46,7 @@ function draw() {
     rect(80,playerYpos,50,50,10);
     fill("red");
     rect(0,height-15,width,10);
+    isGrounded = false;
     playerYpos = playerYpos+playerVelocityY;
     playerVelocityY = playerVelocityY+0.8;
 
@@ -56,8 +57,6 @@ function draw() {
     if (playerYpos > height-65) {
         isGrounded = true;
         playerYpos = height-65;
-    }
-    else {
     }
 
     for (let index=0; index<3; index++) {
