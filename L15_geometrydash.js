@@ -15,7 +15,7 @@ let player;
 let playerYpos;
 let playerVelocityY;
 
-let isGround = true;
+let isGrounded = true;
 let spikesX = [];
 
 function setup() {
@@ -48,7 +48,7 @@ function draw() {
     rect(0,height-15,width,10);
     playerYpos = playerYpos+playerVelocityY;
     playerVelocityY = playerVelocityY+0.8;
-    
+
     if (keyIsDown(32) && isGrounded) {
         playerVelocityY = -15;
     }
