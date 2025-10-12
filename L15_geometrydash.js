@@ -18,7 +18,7 @@ let playerVelocityY;
 function setup() {
     createCanvas(800,600);
     background("black");
-    playerYpos = height-70;
+    playerYpos = height-65;
     playerVelocityY = 2
 }
 
@@ -34,7 +34,7 @@ function draw() {
         playerVelocityY = -25;
     }
     // must stop the player from going down further
-    if (playerYpos > height-70) {
-        playerYpos = height-70;
+    if (playerYpos > height-65) {
+        playerYpos = height-65;
     }
 }
