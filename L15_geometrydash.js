@@ -35,6 +35,10 @@ i need 3 spikes in an array
 function drawSpike(xpos, ypos, size) {
     if (random(1,2) == 1) {
         fill("lime");
+    }
+    else {
+        fill("green");
+    }
     triangle(xpos,ypos, xpos+size/2, ypos-(size*1.5), xpos+size, ypos);
 }
 
