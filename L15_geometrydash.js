@@ -56,6 +56,6 @@ function draw() {
     }
     for (let index=0; index<3; index++) {
         let obstaclesX = spikesX[index];
-        drawSpike(width-200, height-15, 35);
+        drawSpike(obstaclesX, height-15, 35);
     }
 }
