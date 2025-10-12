@@ -4,8 +4,10 @@ let playerYpos;
 let playerVelocityY;
 
 function setup() {
-    createCanvas()
+    createCanvas(800,600);
+    background("black");
 }
+
 function draw() {
 
 }
