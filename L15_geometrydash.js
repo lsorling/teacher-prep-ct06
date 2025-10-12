@@ -24,7 +24,7 @@ function setup() {
     playerVelocityY = 2;
 
     for (let index=0; index<3; index++) {
-        spikesX[index] = index *65 + width-random(20,50);
+        spikesX[index] = index *65 + width-random(50,150);
     }
 }
 /*
@@ -57,7 +57,7 @@ function draw() {
     for (let index=0; index<3; index++) {
         let obstaclesX = spikesX[index];
         drawSpike(obstaclesX, height-15, 35);
-        obstaclesX = obstaclesX - 5; // x velocity is 5;
+        obstaclesX = obstaclesX - 3; // x velocity is 5;
         if (obstaclesX < 0) {
             obstaclesX = width + random(10,50);
         }
