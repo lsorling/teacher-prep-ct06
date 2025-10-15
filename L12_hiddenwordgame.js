@@ -24,8 +24,8 @@ const words = [
     "VAGUE",
     "WHICH",
     "XEROX",
-    "Y",
-    "Z"
+    "YOUTH",
+    "ZEBRA",
 ];
 function setup() {
     const hidden = "BRAVE";
