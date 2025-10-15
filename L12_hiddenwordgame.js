@@ -40,6 +40,8 @@ function draw() {
     background("hotpink");
     noStroke();
     rect(50,50,500,200,25);
+    textAlign(CENTER,CENTER);
+    text("A noun", width/2, 50);
 }
 /*
 of all the html elements
