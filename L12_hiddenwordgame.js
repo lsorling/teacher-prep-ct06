@@ -2,7 +2,7 @@
 function setup() {
     const hidden = "BRAVE";
     const hints = "_".repeat(hidden.length);
-    console.log(hints)
+    console.log("hints" + hints);
 }
 
 function draw() {
