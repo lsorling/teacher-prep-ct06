@@ -31,10 +31,16 @@ function setup() {
     const hidden = random(words);
     const hints = "_".repeat(hidden.length);
     console.log("hints:" + hints);
-    
+
     createCanvas(600,400);
+    background("hotpink");
 }
 
 function draw() {
 
 }
+/*
+of all the html elements
+we didnt teach the use of slider for numeric values
+sad.
+*/
