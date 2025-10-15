@@ -20,7 +20,8 @@ const words = [
     "ROAST",
     "STARE",
     "TEETH",
-    "U"
+    "UNSET",
+    "V"
 ];
 function setup() {
     const hidden = "BRAVE";
