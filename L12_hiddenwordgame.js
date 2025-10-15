@@ -23,7 +23,7 @@ const words = [
     "UNSET",
     "VAGUE",
     "WHICH",
-    "X",
+    "XEROX",
     "Y",
     "Z"
 ];
