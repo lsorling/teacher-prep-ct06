@@ -17,7 +17,8 @@ const words = [
     "OTHER",
     "PICKY",
     "QUEUE",
-    "R"
+    "ROAST",
+    ""
 ];
 function setup() {
     const hidden = "BRAVE";
