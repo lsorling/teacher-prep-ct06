@@ -38,6 +38,7 @@ function setup() {
 
 function draw() {
     background("hotpink");
+    noStroke();
     rect(50,50,500,200,25);
 }
 /*
