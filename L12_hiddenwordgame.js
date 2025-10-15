@@ -1,5 +1,7 @@
 // write your codes here
 const words = [
+    "COVER",
+    "BRAVE",
     "",
 ];
 function setup() {
