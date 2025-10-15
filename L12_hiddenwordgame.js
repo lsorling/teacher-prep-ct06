@@ -49,4 +49,7 @@ we didnt teach the use of slider for numeric values
 sad.
 */
 /*
+my idea was to push canvas down.
+and top portion is for html element
+but missing label
 */
