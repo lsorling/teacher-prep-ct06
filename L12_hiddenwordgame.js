@@ -13,7 +13,8 @@ const words = [
     "KARMA",
     "LOBBY",
     "MINTY",
-    "N"
+    "NEEDY",
+    "OTHER"
 ];
 function setup() {
     const hidden = "BRAVE";
