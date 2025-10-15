@@ -11,7 +11,8 @@ const words = [
     "INNER",
     "JOKER",
     "KARMA",
-    "L",
+    "LOBBY",
+    "MANNA",
 ];
 function setup() {
     const hidden = "BRAVE";
