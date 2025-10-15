@@ -1,6 +1,6 @@
 // write your codes here
 function setup() {
-    const hints = "+"
+    const hints = "_".repeat()
 }
 
 function draw() {
