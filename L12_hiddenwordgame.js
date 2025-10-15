@@ -27,6 +27,7 @@ const words = [
     "YOUTH",
     "ZEBRA",
 ];
+
 function setup() {
     const hidden = random(words);
     const hints = "_".repeat(hidden.length);
