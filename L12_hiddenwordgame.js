@@ -23,7 +23,9 @@ const words = [
     "UNSET",
     "VAGUE",
     "WHICH",
-    "X"
+    "X",
+    "Y",
+    "Z"
 ];
 function setup() {
     const hidden = "BRAVE";
