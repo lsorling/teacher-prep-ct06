@@ -38,7 +38,7 @@ function setup() {
 
 function draw() {
     background("hotpink");
-    
+    rect(50,50,)
 }
 /*
 of all the html elements
