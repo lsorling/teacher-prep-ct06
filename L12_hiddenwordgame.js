@@ -48,3 +48,5 @@ of all the html elements
 we didnt teach the use of slider for numeric values
 sad.
 */
+/*
+*/
