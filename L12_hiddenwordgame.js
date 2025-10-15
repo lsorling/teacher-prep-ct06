@@ -31,6 +31,8 @@ function setup() {
     const hidden = random(words);
     const hints = "_".repeat(hidden.length);
     console.log("hints:" + hints);
+    
+    createCanvas(600,400);
 }
 
 function draw() {
