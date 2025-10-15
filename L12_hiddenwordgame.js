@@ -51,5 +51,5 @@ sad.
 /*
 my idea was to push canvas down.
 and top portion is for html element
-but missing label
+but missing label for html elements if not using text()
 */
