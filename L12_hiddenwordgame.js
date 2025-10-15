@@ -18,7 +18,9 @@ const words = [
     "PEACH",
     "QUEUE",
     "ROAST",
-    "S"
+    "STARE",
+    "TEETH",
+    "U"
 ];
 function setup() {
     const hidden = "BRAVE";
