@@ -28,7 +28,7 @@ const words = [
     "ZEBRA",
 ];
 function setup() {
-    const hidden = "BRAVE";
+    const hidden = random(words);
     const hints = "_".repeat(hidden.length);
     console.log("hints:" + hints);
 }
