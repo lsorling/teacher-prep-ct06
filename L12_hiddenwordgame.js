@@ -15,7 +15,9 @@ const words = [
     "MINTY",
     "NEEDY",
     "OTHER",
-    "P"
+    "PICKY",
+    "QUEUE",
+    "R"
 ];
 function setup() {
     const hidden = "BRAVE";
