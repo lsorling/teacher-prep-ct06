@@ -1,7 +1,16 @@
 // write your codes here
 const words = [
-    "COVER",
     "BRAVE",
+    "ABOVE",
+    "DUSTY",
+    "COMET",
+    "EJECT",
+    "FORCE",
+    "GHOST",
+    "HEIST",
+    "INNER",
+    "JOKER",
+    "KARMA",
     "",
 ];
 function setup() {
