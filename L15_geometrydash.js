@@ -26,7 +26,7 @@ function setup() {
     playerVelocityY = 2;
 
     for (let index=0; index<spikesCount; index++) {
-        spikesX[index] = index *55 + width + random(100,200);
+        spikesX[index] = index *55 + width + random(0,200);
     }
 }
 /*
